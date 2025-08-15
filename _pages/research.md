@@ -8,26 +8,27 @@ header:
 ---
 
 <style>
-/* Custom styling for research thumbnails - right-aligned */
+/* Custom styling for research thumbnails - centered with even spacing */
 .grid__wrapper {
   display: flex !important;
   flex-wrap: wrap !important;
-  justify-content: flex-end !important; /* This pushes items to the right */
-  margin-right: -20px; /* Adjust negative margin to control spacing */
+  justify-content: center !important; /* Center the items */
+  align-items: flex-start !important;
 }
 .grid__item {
-  width: 30% !important;
-  margin-right: 20px !important;
-  margin-bottom: 20px !important;
+  width: 28% !important; /* Slightly smaller to ensure all fit on one line */
+  margin: 0 2% 20px 2% !important; /* Even margins on both sides */
 }
 @media screen and (max-width: 768px) {
   .grid__item {
     width: 45% !important;
+    margin: 0 2% 20px 2% !important;
   }
 }
 @media screen and (max-width: 480px) {
   .grid__item {
-    width: 100% !important;
+    width: 90% !important;
+    margin: 0 5% 20px 5% !important;
   }
 }
 </style>
