@@ -7,12 +7,37 @@ header:
   og_image: "images/profile.png"
 ---
 
+<style>
+/* Custom styling for research thumbnails - right-aligned */
+.grid__wrapper {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: flex-end !important; /* This pushes items to the right */
+  margin-right: -20px; /* Adjust negative margin to control spacing */
+}
+.grid__item {
+  width: 30% !important;
+  margin-right: 20px !important;
+  margin-bottom: 20px !important;
+}
+@media screen and (max-width: 768px) {
+  .grid__item {
+    width: 45% !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .grid__item {
+    width: 100% !important;
+  }
+}
+</style>
+
 <p style="text-align: justify;">
 Engineerable biological systems have the potential to be some of our greatest tools against a host of problems, from biological and chemical threats to human health, to food insecurity, and the sustainable production of materials. Understanding the fundamental building blocks of complex biological systems and their interactions lies at the heart of creating biological tools that can function robustly, predictably, and with quantitative precision. However, the fundamental knowledge and high-throughput techniques to select ideal biocatalysts, reaction conditions, and production platforms are limited.
 </p>
 
 <p style="text-align: justify;">
-The open nature of cell-free systems enables this work through a modular approach to biological transformations that allows for distinct biological components to be characterized rapidly and with precise control of the chemical environment. These methods reconceptualize how biological systems are engineered for applications in health, materials, and energy. Instead of making concessions between the cell’s physiological and evolutionary objectives compared to engineerable objectives, we are able to rapidly test components and conditions, port them to cellular chassis, or use them directly in cell-free biomanufacturing platforms.
+The open nature of cell-free systems enables this work through a modular approach to biological transformations that allows for distinct biological components to be characterized rapidly and with precise control of the chemical environment. These methods reconceptualize how biological systems are engineered for applications in health, materials, and energy. Instead of making concessions between the cell's physiological and evolutionary objectives compared to engineerable objectives, we are able to rapidly test components and conditions, port them to cellular chassis, or use them directly in cell-free biomanufacturing platforms.
 </p>
 
 <p style="text-align: justify;">
