@@ -174,13 +174,13 @@
 
 .greedy-nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start; // Changed from flex-end to flex-start
   align-items: center;
   position: relative;
   min-width: 250px;
   background: $background-color;
-  margin: 0 auto; // Center navigation, aligns with main content
-  max-width: $x-large; // Match main content width
+  margin: 0 auto;
+  max-width: $x-large;
 
   a {
     display: block;
@@ -432,6 +432,130 @@
 
     @include breakpoint($medium) {
       display: block;
+    }
+  }
+}
+
+/* ==========================================================================
+   GROUP SECTION
+   ========================================================================== */
+
+.group-section {
+  @include container;
+  margin: 4em 0;
+
+  h2 {
+    margin-bottom: 1em;
+    font-family: $sans-serif;
+    font-size: $type-size-4;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  p {
+    margin-bottom: 2em;
+    text-align: center;
+    color: $gray;
+  }
+
+  .group-members {
+    @include clearfix;
+
+    .member {
+      @include span(4 of 12);
+      text-align: center;
+      margin-bottom: 2em;
+
+      &:nth-child(3n+1) {
+        clear: left;
+      }
+
+      .group-img {
+        display: block;
+        margin: 0 auto 0.5em;
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 0 2px 8px rgba(#000, 0.1);
+      }
+
+      h3 {
+        margin: 0.5em 0;
+        font-size: $type-size-5;
+        font-weight: bold;
+      }
+
+      p {
+        margin: 0;
+        font-size: $type-size-6;
+        color: $gray;
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+   GROUP SECTION
+   ========================================================================== */
+
+/*
+   Group Section
+   ========================================================================== */
+
+#group {
+  .group-section {
+    @include container;
+    margin: 4em 0;
+
+    h2 {
+      margin-bottom: 1em;
+      font-family: $sans-serif;
+      font-size: $type-size-4;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 2em;
+      text-align: center;
+      color: $gray;
+    }
+
+    .group-members {
+      @include clearfix;
+
+      .member {
+        @include span(4 of 12);
+        text-align: center;
+        margin-bottom: 2em;
+
+        &:nth-child(3n+1) {
+          clear: left;
+        }
+
+        .group-img {
+          display: block;
+          margin: 0 auto 0.5em;
+          width: 100%;
+          max-width: 150px;
+          height: auto;
+          border-radius: 50%;
+          box-shadow: 0 2px 8px rgba(#000, 0.1);
+        }
+
+        h3 {
+          margin: 0.5em 0;
+          font-size: $type-size-5;
+          font-weight: bold;
+        }
+
+        p {
+          margin: 0;
+          font-size: $type-size-6;
+          color: $gray;
+        }
+      }
     }
   }
 }
