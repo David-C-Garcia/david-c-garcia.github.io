@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "David Garcia"
+title                    : "David C. Garcia"
 title_separator          : "-"
-name                     : &name "David Garcia"
-description              : &description "Senior Research Scientist at DEVCOM CBC and Caltech"
+name                     : &name "David C. Garcia"
+description              : &description "Assistant Professor in CBEE at UMBC"
 url                      : https://david-c-garcia.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "DG_github.io/"
@@ -78,14 +78,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "David Garcia"
+  name             : "David C. Garcia"
   avatar           : "portrait_DG.png"
-  bio              : "Senior Research Scientist in Bioengineering at Caltech"
-  location         : "Pasadena, CA, USA"
+  bio              : "Assistant Professor in CBEE at UMBC"
+  location         : "Baltimore, MD, USA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=HTLatcMAAAAJ&hl=en"
-  email            : "dgarciac@caltech.edu"
+  email            : "DavidCGarcia@UMBC.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
