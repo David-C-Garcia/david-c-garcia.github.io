@@ -176,6 +176,9 @@
   position: relative;
   min-width: 250px;
   background: $background-color;
+  margin-left: auto;
+  margin-right: 0;
+  max-width: $x-large; // Optional: match main content width
 
   a {
     display: block;
