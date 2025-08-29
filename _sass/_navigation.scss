@@ -173,11 +173,13 @@
    ========================================================================== */
 
 .greedy-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   position: relative;
   min-width: 250px;
   background: $background-color;
-  margin-left: auto;
-  margin-right: 2em; // Increased right margin to move tabs further right
+  margin-right: 2em;
   max-width: $x-large; // Optional: match main content width
 
   a {
