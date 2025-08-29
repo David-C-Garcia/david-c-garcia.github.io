@@ -12,7 +12,7 @@ header:
   display: flex;
   flex-wrap: wrap;
   gap: 2em;
-  justify-content: flex-start;
+  justify-content: center; /* Center the members horizontally */
   margin-top: 2em;
 }
 .member {
@@ -22,6 +22,7 @@ header:
   padding: 1em;
   max-width: 220px;
   text-align: center;
+  margin-bottom: 2em;
 }
 .group-img {
   width: 100px;
@@ -30,20 +31,22 @@ header:
   border-radius: 50%;
   margin-bottom: 1em;
   background: #eee;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
 
 <section id="group" class="group-section">
   <div class="container">
-    <h2>Group</h2>
-    <p>
-      Welcome to the Group section. Here you can introduce your team, collaborators, or community. Add a short description about the group, its mission, or any relevant details.
-    </p>
+    <h2 style="text-align: center;">Group</h2>
     <div class="group-members">
       <div class="member">
-        <img src="/assets/images/placeholder1.jpg" alt="Member 1" class="group-img" />
-        <h3>Member Name 1</h3>
-        <p>Short bio or description for member 1.</p>
+        <img src="/images/profile.png" alt="David C. Garcia" class="group-img" />
+        <h3>David C. Garcia</h3>
+        <p>
+          David C. Garcia is a researcher in engineerable biological systems, focusing on cell-free biomanufacturing, synthetic biology, and the development of modular approaches for biological transformations. His work aims to create robust and predictable biological tools for applications in health, materials, and energy.
+        </p>
       </div>
       <div class="member">
         <img src="/assets/images/placeholder2.jpg" alt="Member 2" class="group-img" />
