@@ -12,7 +12,7 @@ header:
   display: flex;
   flex-wrap: wrap;
   gap: 2em;
-  justify-content: center; /* Center the members horizontally */
+  justify-content: center;
   margin-top: 2em;
 }
 .member {
@@ -35,6 +35,13 @@ header:
   margin-left: auto;
   margin-right: auto;
 }
+.bio-link {
+  display: inline-block;
+  margin-top: 0.5em;
+  color: #007acc;
+  text-decoration: underline;
+  font-size: 0.95em;
+}
 </style>
 
 <section id="group" class="group-section">
@@ -45,18 +52,25 @@ header:
         <img src="/images/profile.png" alt="David C. Garcia" class="group-img" />
         <h3>David C. Garcia</h3>
         <p>
-          David C. Garcia is a researcher in engineerable biological systems, focusing on cell-free biomanufacturing, synthetic biology, and the development of modular approaches for biological transformations. His work aims to create robust and predictable biological tools for applications in health, materials, and energy.
+          Researcher in engineerable biological systems, cell-free biomanufacturing, and synthetic biology.
         </p>
+        <a href="/group/david-garcia/" class="bio-link">Read full bio</a>
       </div>
       <div class="member">
         <img src="/assets/images/placeholder2.jpg" alt="Member 2" class="group-img" />
         <h3>Member Name 2</h3>
-        <p>Short bio or description for member 2.</p>
+        <p>
+          Short bio or description for member 2.
+        </p>
+        <a href="/group/member-2/" class="bio-link">Read full bio</a>
       </div>
       <div class="member">
         <img src="/assets/images/placeholder3.jpg" alt="Member 3" class="group-img" />
         <h3>Member Name 3</h3>
-        <p>Short bio or description for member 3.</p>
+        <p>
+          Short bio or description for member 3.
+        </p>
+        <a href="/group/member-3/" class="bio-link">Read full bio</a>
       </div>
     </div>
   </div>
