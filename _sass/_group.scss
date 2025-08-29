@@ -1,16 +1,19 @@
 .group-section {
-  padding: 3em 1em;
-  background: #f9f9f9;
+  @include container; // Ensures same width/margins as main content
+  margin: 4em 0;
 
   h2 {
-    text-align: center;
+    text-align: left; // Align heading left
     margin-bottom: 1.5em;
+  }
+
+  p {
+    text-align: left; // Align paragraph left
   }
 
   .group-members {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 2em;
   }
 
@@ -42,3 +45,8 @@
     }
   }
 }
+
+{% include group.html %}
+
+- title: "Group"
+  url: "/#group"
