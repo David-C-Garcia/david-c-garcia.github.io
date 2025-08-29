@@ -179,8 +179,8 @@
   position: relative;
   min-width: 250px;
   background: $background-color;
-  margin-right: 2em;
-  max-width: $x-large; // Optional: match main content width
+  margin: 0 auto; // Center navigation, aligns with main content
+  max-width: $x-large; // Match main content width
 
   a {
     display: block;
