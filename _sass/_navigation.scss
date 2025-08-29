@@ -177,7 +177,7 @@
   min-width: 250px;
   background: $background-color;
   margin-left: auto;
-  margin-right: 0;
+  margin-right: 2em; // Increased right margin to move tabs further right
   max-width: $x-large; // Optional: match main content width
 
   a {
