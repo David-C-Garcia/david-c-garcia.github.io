@@ -7,7 +7,6 @@ header:
   og_image: "images/profile.png"
 ---
 
-{% raw %}
 <style>
 .group-members {
   display: flex;
@@ -76,5 +75,4 @@ header:
     </div>
   </div>
 </section>
-{% endraw %}
 
