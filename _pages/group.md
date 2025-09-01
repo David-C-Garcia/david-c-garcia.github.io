@@ -57,7 +57,7 @@ header:
         <a href="/group/david-garcia/" class="bio-link">Read full bio</a>
       </div>
       <div class="member">
-        <img src="/assets/images/placeholder2.jpg" alt="Member 2" class="group-img" />
+        <img src="/images/placeholder.jpg" alt="Member 2" class="group-img" />
         <h3>Member Name 2</h3>
         <p>
           Short bio or description for member 2.
@@ -65,7 +65,7 @@ header:
         <a href="/group/member-2/" class="bio-link">Read full bio</a>
       </div>
       <div class="member">
-        <img src="/assets/images/placeholder3.jpg" alt="Member 3" class="group-img" />
+        <img src="/images/placeholder.jpg" alt="Member 3" class="group-img" />
         <h3>Member Name 3</h3>
         <p>
           Short bio or description for member 3.
