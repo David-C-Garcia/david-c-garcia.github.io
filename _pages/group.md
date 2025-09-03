@@ -13,40 +13,62 @@ header:
   flex-wrap: wrap;
   gap: 2em;
   justify-content: center;
-  margin-top: 2em;
+  margin-top: 3em;
 }
 .member {
   background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-  padding: 1em;
-  max-width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  padding: 1.5em;
+  max-width: 260px;
   text-align: center;
   margin-bottom: 2em;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
 .group-img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
   background: #eee;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 3px solid #f5f5f5;
+}
+.member h3 {
+  color: #333;
+  margin-bottom: 0.5em;
+}
+.member p {
+  color: #555;
+  margin: 0.3em 0;
+  line-height: 1.4;
 }
 .bio-link {
   display: inline-block;
-  margin-top: 0.5em;
+  margin-top: 1em;
+  padding: 0.4em 0.8em;
+  background-color: #f5f7f9;
   color: #007acc;
-  text-decoration: underline;
-  font-size: 0.95em;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: background-color 0.2s;
+}
+.bio-link:hover {
+  background-color: #e5f0fa;
+  text-decoration: none;
 }
 </style>
 
 <section id="group" class="group-section">
   <div class="container">
-    <h2 style="text-align: center;">Group</h2>
     <div class="group-members">
       <div class="member">
         <img src="/images/David-portrait.png" alt="David C. Garcia" class="group-img" />
@@ -55,7 +77,7 @@ header:
         <p>Assistant Professor in CBEE</p>
         <p>Ph.D., University of Tennessee, Knoxville</p>
         <p>Postdoc, Caltech and DEVCOM CBC</p>
-        <a href="/group/david-garcia/" class="bio-link">Read full bio</a>
+        <a href="/group/david-garcia/" class="bio-link">Read full bio →</a>
       </div>
     </div>
   </div>
