@@ -51,26 +51,11 @@ header:
       <div class="member">
         <img src="/images/David-portrait.png" alt="David C. Garcia" class="group-img" />
         <h3>David C. Garcia</h3>
-        <p>
-          Principal Investigator
-        </p>
+        <p>Principal Investigator</p>
+        <p>Assistant Professor in CBEE</p>
+        <p>Ph.D., University of Tennessee, Knoxville</p>
+        <p>Postdoc, Caltech and DEVCOM CBC</p>
         <a href="/group/david-garcia/" class="bio-link">Read full bio</a>
-      </div>
-      <div class="member">
-        <img src="/images/placeholder.jpg" alt="Member 2" class="group-img" />
-        <h3>Member Name 2</h3>
-        <p>
-          Short bio or description for member 2.
-        </p>
-        <a href="/group/member-2/" class="bio-link">Read full bio</a>
-      </div>
-      <div class="member">
-        <img src="/images/placeholder.jpg" alt="Member 3" class="group-img" />
-        <h3>Member Name 3</h3>
-        <p>
-          Short bio or description for member 3.
-        </p>
-        <a href="/group/member-3/" class="bio-link">Read full bio</a>
       </div>
     </div>
   </div>

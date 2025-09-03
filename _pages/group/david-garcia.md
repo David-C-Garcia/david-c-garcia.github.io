@@ -21,3 +21,4 @@ David C. Garcia is an assistant professor in the Department of Chemical, Biochem
 **Contact:**  
 [Email](mailto:DavidCGarcia@UMBC.edu)  
 [LinkedIn](https://www.linkedin.com/in/davidcgarcia)
+You can download a pdf version of my CV [here](/files/pdf/cv/DGarcia_CV.pdf).
