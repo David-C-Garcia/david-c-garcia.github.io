@@ -5,11 +5,11 @@ permalink: /group/david-garcia/
 author_profile: false
 ---
 
-<img src="/images/profile.png" alt="David C. Garcia" style="width:140px; border-radius:50%; display:block; margin:2em auto 1em auto;" />
+<img src="/David-portrait.png" alt="David C. Garcia" style="width:140px; border-radius:50%; display:block; margin:2em auto 1em auto;" />
 
 ## David C. Garcia
 
-David C. Garcia is a researcher specializing in engineerable biological systems, cell-free biomanufacturing, and synthetic biology. His work focuses on developing modular approaches for biological transformations, aiming to create robust and predictable biological tools for applications in health, materials, and energy.
+David C. Garcia is an assistant professor in the Department of Chemical, Biochemical and Environmental Engineering at the University of Maryland Baltimore County. Their work focuses on developing modular approaches for biological transformations, aiming to create robust and predictable biological tools for applications in health, materials, and energy.
 
 **Research Interests:**  
 - Synthetic biology  
@@ -19,5 +19,5 @@ David C. Garcia is a researcher specializing in engineerable biological systems,
 - Sustainable materials
 
 **Contact:**  
-[Email](mailto:your-email@example.com)  
+[Email](mailto:DavidCGarcia@UMBC.edu)  
 [LinkedIn](https://www.linkedin.com/in/davidcgarcia)

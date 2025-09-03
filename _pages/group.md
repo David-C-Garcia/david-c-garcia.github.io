@@ -49,7 +49,7 @@ header:
     <h2 style="text-align: center;">Group</h2>
     <div class="group-members">
       <div class="member">
-        <img src="/images/profile.png" alt="David C. Garcia" class="group-img" />
+        <img src="/images/David-portrait.png" alt="David C. Garcia" class="group-img" />
         <h3>David C. Garcia</h3>
         <p>
           Researcher in engineerable biological systems, cell-free biomanufacturing, and synthetic biology.
