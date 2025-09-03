@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "David C. Garcia"
+title                    : "Garcia Lab"
 title_separator          : "-"
-name                     : &name "David C. Garcia"
-description              : &description "Assistant Professor in CBEE at UMBC"
+name                     : &name "Garcia Lab"
+description              : &description "Cell-Free Synthetic Biology Lab at UMBC"
 url                      : https://david-c-garcia.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "DG_github.io/"
@@ -78,9 +78,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "David C. Garcia"
-  avatar           : "portrait_DG.png"
-  bio              : "Assistant Professor in CBEE at UMBC"
+  name             : "Garcia Lab"
+  avatar           : "Lab-Logo.png"
+  bio              : "Cell-Free Synthetic Biology Lab at UMBC"
   location         : "Baltimore, MD, USA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

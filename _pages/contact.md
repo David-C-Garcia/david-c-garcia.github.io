@@ -35,6 +35,12 @@ title: "Contact Us"
   margin-bottom: 0.5em;
   font-size: 1.2em;
 }
+
+.join-us {
+  margin-top: 2em;
+  padding-top: 1.5em;
+  border-top: 1px solid #e5e5e5;
+}
 </style>
 
 <div class="contact-container">
@@ -60,5 +66,10 @@ title: "Contact Us"
       1000 Hilltop Rd<br>
       Baltimore, MD 21250</p>
     </div>
+  </div>
+  
+  <div class="join-us">
+    <h3 class="contact-heading">Join Our Lab</h3>
+    <p>Students and experienced Researchers interested in contributing to the lab should send Dr. Garcia a CV and a short description of their research interests.</p>
   </div>
 </div>
