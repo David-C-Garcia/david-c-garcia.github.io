@@ -52,7 +52,7 @@ header:
         <img src="/images/David-portrait.png" alt="David C. Garcia" class="group-img" />
         <h3>David C. Garcia</h3>
         <p>
-          Researcher in engineerable biological systems, cell-free biomanufacturing, and synthetic biology.
+          Principal Investigator
         </p>
         <a href="/group/david-garcia/" class="bio-link">Read full bio</a>
       </div>
