@@ -35,13 +35,15 @@
     transition: color 0.2s;
   }
   
-  /* Tab container */
+  /* Tab container - moved further left */
   .site-links {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-    padding-right: 2em; /* Align with content */
+    padding-right: 0; /* Removed right padding */
+    margin-right: auto; /* Push links to the left */
+    margin-left: 100px; /* Position more to the left */
   }
   
   .site-links li {
