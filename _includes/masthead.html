@@ -3,54 +3,66 @@
 <style>
   .masthead {
     position: relative;
+    border-bottom: 1px solid #f2f2f2;
   }
   
-  .primary-nav {
-    position: absolute;
-    left: 20px; /* Align with the sidebar/portrait */
-    top: 20px;
-    z-index: 10;
+  .masthead__inner-wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1em;
   }
   
-  .secondary-nav {
-    text-align: right;
-    padding-right: 20px;
+  /* Site title positioning (over portrait) */
+  .site-title {
+    margin-left: 36px; /* Align with author sidebar */
+    font-size: 1.5em;
+    font-weight: bold;
   }
   
-  .primary-nav .masthead__menu-item,
-  .secondary-nav .masthead__menu-item {
-    display: inline-block;
-    margin-right: 10px;
+  /* Navigation menu alignment */
+  .masthead__menu {
+    width: 100%;
+    margin-top: 1em;
+    display: flex;
+    justify-content: flex-end; /* Align tabs with content */
+    padding-right: 2em; /* Match content padding */
   }
   
-  .secondary-nav .visible-links {
+  .greedy-nav {
+    display: flex;
+    width: auto;
+  }
+  
+  .greedy-nav .visible-links {
+    display: flex;
     justify-content: flex-end;
   }
   
-  /* Hide the site title on mobile */
+  /* Responsive adjustments */
   @media screen and (max-width: 768px) {
-    .primary-nav {
-      position: static;
-    }
-    .secondary-nav {
+    .site-title {
+      margin-left: 0;
       text-align: center;
+    }
+    
+    .masthead__menu {
+      justify-content: center;
+      padding-right: 0;
     }
   }
 </style>
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <!-- Primary navigation (over portrait) -->
-    <div class="masthead__menu primary-nav">
-      <nav id="primary-site-nav">
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-        </ul>
-      </nav>
+    <!-- Site title (aligns with portrait) -->
+    <div class="site-title">
+      <a href="{{ base_path }}/">{{ site.title }}</a>
     </div>
     
-    <!-- Secondary navigation (aligned with content) -->
-    <div class="masthead__menu secondary-nav">
+    <!-- Navigation menu (aligned with content) -->
+    <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
