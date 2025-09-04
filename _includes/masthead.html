@@ -11,6 +11,8 @@
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 1em;
+    display: flex;
+    flex-direction: column;
   }
   
   /* Site title styling */
@@ -21,37 +23,44 @@
     margin-bottom: 0.8em;
   }
   
-  /* Simple horizontal navigation */
-  .site-nav {
+  /* Navigation container with two sections */
+  .site-nav-container {
     display: flex;
-    justify-content: flex-end;
-    /* Align with main content area by matching container width */
-    padding-right: 2em;
-    width: 75%;
-    margin-left: auto;
-    margin-top: 1em;
+    width: 100%;
   }
   
+  /* First tab styling */
+  .site-nav-primary {
+    width: 25%;
+    padding-left: 36px;
+  }
+  
+  /* Remaining tabs styling */
+  .site-nav-secondary {
+    width: 75%;
+    padding-left: 20px; /* Align with content */
+  }
+  
+  /* Common navigation styles */
   .site-nav ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 100%;
-    justify-content: flex-end;
   }
   
   .site-nav li {
-    margin: 0 20px;
+    margin-right: 25px;
   }
   
   .site-nav a {
-    color: #000; /* Make text black */
+    color: #000; 
     text-decoration: none;
     padding: 5px 0;
-    font-size: 1.1em; /* Make text bigger */
-    font-weight: 500; /* Slightly bolder */
+    font-size: 1.1em;
+    font-weight: 500;
     transition: color 0.2s;
+    display: block;
   }
   
   .site-nav a:hover {
@@ -61,19 +70,26 @@
   
   /* Mobile navigation */
   @media screen and (max-width: 768px) {
-    .site-title {
+    .site-nav-container {
+      flex-direction: column;
+    }
+    
+    .site-title,
+    .site-nav-primary,
+    .site-nav-secondary {
+      width: 100%;
+      padding-left: 0;
       margin-left: 0;
       text-align: center;
     }
     
-    .site-nav {
+    .site-nav ul {
       justify-content: center;
-      padding-right: 0;
-      width: 100%;
+      flex-wrap: wrap;
     }
     
     .site-nav li {
-      margin: 0 10px;
+      margin: 5px 10px;
     }
   }
 </style>
@@ -85,18 +101,35 @@
       <a href="{{ base_path }}/">{{ site.title }}</a>
     </div>
     
-    <!-- Simple navigation -->
-    <nav class="site-nav">
-      <ul>
-        {% for link in site.data.navigation.main %}
-          {% if link.url contains 'http' %}
-            {% assign domain = '' %}
-          {% else %}
-            {% assign domain = base_path %}
-          {% endif %}
-          <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
+    <!-- Two-part navigation -->
+    <div class="site-nav-container">
+      <!-- First tab -->
+      <nav class="site-nav site-nav-primary">
+        <ul>
+          {% for link in site.data.navigation.main limit:1 %}
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+            {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+      
+      <!-- Remaining tabs -->
+      <nav class="site-nav site-nav-secondary">
+        <ul>
+          {% for link in site.data.navigation.main offset:1 %}
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+            {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
   </div>
 </div>
