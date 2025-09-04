@@ -4,117 +4,90 @@
   .masthead {
     position: relative;
     border-bottom: 1px solid #f2f2f2;
+    padding: 1em 0;
   }
   
   .masthead__inner-wrap {
-    display: flex;
-    flex-direction: column;
     max-width: 1280px;
     margin: 0 auto;
-    padding: 1em;
+    padding: 0 1em;
   }
   
-  /* Site title positioning (over portrait) */
+  /* Site title styling */
   .site-title {
-    margin-left: 36px; /* Align with author sidebar */
+    margin-left: 36px;
     font-size: 1.5em;
     font-weight: bold;
+    margin-bottom: 0.8em;
   }
   
-  /* Navigation menu alignment */
-  .masthead__menu {
-    width: 100%;
-    margin-top: 1em;
+  /* Simple horizontal navigation */
+  .site-nav {
     display: flex;
-    justify-content: flex-end; /* Align tabs with content */
-    padding-right: 2em; /* Match content padding */
-  }
-  
-  .greedy-nav {
-    display: flex;
-    width: 100%; /* Take full width to ensure proper spacing */
-  }
-  
-  .greedy-nav .visible-links {
-    display: flex;
-    flex-wrap: nowrap; /* Keep all tabs on one line */
     justify-content: flex-end;
-    width: 100%; /* Full width to utilize space */
+    padding-right: 2em;
+    margin-top: 1em;
   }
   
-  .greedy-nav .visible-links li {
-    display: inline-block;
-    margin: 0 10px; /* Even spacing on both sides */
-    padding: 0 5px; /* Additional padding for clickable area */
-    white-space: nowrap;
+  .site-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
   
-  .greedy-nav .visible-links li:last-child {
-    margin-right: 0;
+  .site-nav li {
+    margin: 0 15px;
   }
   
-  .greedy-nav .visible-links li a {
-    padding: 8px 5px; /* Taller clickable area */
-    font-size: 1em; /* Consistent font size */
+  .site-nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 0;
+    font-size: 1em;
   }
   
-  /* Hide scrollbar but allow scrolling if needed */
-  .greedy-nav .visible-links {
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE and Edge */
-    overflow-x: auto;
+  .site-nav a:hover {
+    color: #007bff;
   }
   
-  .greedy-nav .visible-links::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera */
-  }
-  
-  /* Responsive adjustments */
-  @media screen and (max-width: 900px) {
-    .greedy-nav .visible-links {
-      justify-content: space-between; /* Evenly distribute on smaller screens */
-    }
-    
-    .masthead__menu {
-      padding-right: 0;
-    }
-  }
-  
+  /* Mobile navigation */
   @media screen and (max-width: 768px) {
     .site-title {
       margin-left: 0;
       text-align: center;
     }
     
-    .greedy-nav .visible-links li {
-      margin: 0 5px; /* Tighter spacing on mobile */
+    .site-nav {
+      justify-content: center;
+      padding-right: 0;
+    }
+    
+    .site-nav li {
+      margin: 0 8px;
     }
   }
 </style>
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <!-- Site title (aligns with portrait) -->
+    <!-- Site title -->
     <div class="site-title">
       <a href="{{ base_path }}/">{{ site.title }}</a>
     </div>
     
-    <!-- Navigation menu (aligned with content) -->
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
+    <!-- Simple navigation -->
+    <nav class="site-nav">
+      <ul>
+        {% for link in site.data.navigation.main %}
+          {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+          {% else %}
+            {% assign domain = base_path %}
+          {% endif %}
+          <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
   </div>
 </div>
