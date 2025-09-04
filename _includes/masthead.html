@@ -37,7 +37,18 @@
   
   .greedy-nav .visible-links {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
+  }
+  
+  .greedy-nav .visible-links li {
+    display: inline-block;
+    margin-right: 1em; /* Add spacing between tabs */
+    white-space: nowrap;
+  }
+  
+  .greedy-nav .visible-links li:last-child {
+    margin-right: 0;
   }
   
   /* Responsive adjustments */
@@ -50,6 +61,10 @@
     .masthead__menu {
       justify-content: center;
       padding-right: 0;
+    }
+    
+    .greedy-nav .visible-links li {
+      margin: 0 0.5em;
     }
   }
 </style>
