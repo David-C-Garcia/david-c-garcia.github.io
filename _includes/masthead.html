@@ -1,16 +1,63 @@
 {% include base_path %}
 
+<style>
+  .masthead {
+    position: relative;
+  }
+  
+  .primary-nav {
+    position: absolute;
+    left: 20px; /* Align with the sidebar/portrait */
+    top: 20px;
+    z-index: 10;
+  }
+  
+  .secondary-nav {
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  .primary-nav .masthead__menu-item,
+  .secondary-nav .masthead__menu-item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .secondary-nav .visible-links {
+    justify-content: flex-end;
+  }
+  
+  /* Hide the site title on mobile */
+  @media screen and (max-width: 768px) {
+    .primary-nav {
+      position: static;
+    }
+    .secondary-nav {
+      text-align: center;
+    }
+  }
+</style>
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
+    <!-- Primary navigation (over portrait) -->
+    <div class="masthead__menu primary-nav">
+      <nav id="primary-site-nav">
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <!-- Secondary navigation (aligned with content) -->
+    <div class="masthead__menu secondary-nav">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
