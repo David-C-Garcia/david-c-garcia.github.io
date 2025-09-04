@@ -22,7 +22,7 @@
   
   /* Site title (Garcia Lab) */
   .site-title {
-    margin-right: auto; /* Push to the left */
+    margin-right: auto; /* Keep this to push title to the left */
     margin-left: 36px;
     font-size: 1.1em;
     font-weight: 500;
@@ -41,9 +41,8 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    padding-right: 0; /* Removed right padding */
-    margin-right: auto; /* Push links to the left */
-    margin-left: 0px; /* Position more to the left */
+    /* Remove margin-right: auto; to allow links to stay right */
+    margin-left: -300px; /* Use negative margin to pull tabs left */
   }
   
   .site-links li {
