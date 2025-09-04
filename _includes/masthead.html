@@ -37,14 +37,18 @@
   
   .greedy-nav .visible-links {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap; /* Prevent wrapping which causes jumbling */
     justify-content: flex-end;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 5px; /* Space for potential scrollbar */
   }
   
   .greedy-nav .visible-links li {
     display: inline-block;
-    margin-right: 1em; /* Add spacing between tabs */
+    margin-right: 1.5em; /* Increase spacing between tabs */
     white-space: nowrap;
+    position: relative; /* For potential dropdown positioning */
   }
   
   .greedy-nav .visible-links li:last-child {
@@ -52,19 +56,26 @@
   }
   
   /* Responsive adjustments */
-  @media screen and (max-width: 768px) {
-    .site-title {
-      margin-left: 0;
-      text-align: center;
+  @media screen and (max-width: 900px) {
+    .greedy-nav .visible-links {
+      flex-wrap: wrap; /* Allow wrapping on smaller screens */
+      justify-content: center;
+    }
+    
+    .greedy-nav .visible-links li {
+      margin: 0.3em 0.8em;
     }
     
     .masthead__menu {
       justify-content: center;
       padding-right: 0;
     }
-    
-    .greedy-nav .visible-links li {
-      margin: 0 0.5em;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .site-title {
+      margin-left: 0;
+      text-align: center;
     }
   }
 </style>
