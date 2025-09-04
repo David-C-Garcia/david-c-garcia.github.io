@@ -11,16 +11,21 @@
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 1em;
-    display: flex;
-    flex-direction: column;
   }
   
-  /* Site title styling - this is the Garcia Lab tab on the left */
+  /* Single navigation bar */
+  .site-nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+  /* Site title (Garcia Lab) */
   .site-title {
+    margin-right: auto; /* Push to the left */
     margin-left: 36px;
     font-size: 1.1em;
     font-weight: 500;
-    margin-bottom: 0.8em;
   }
   
   .site-title a {
@@ -30,35 +35,20 @@
     transition: color 0.2s;
   }
   
-  .site-title a:hover {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  /* Navigation container */
-  .site-nav-container {
-    display: flex;
-    width: 100%;
-  }
-  
-  /* All tabs styling */
-  .site-nav {
-    width: 75%;
-    padding-left: 20px; /* Align with content */
-  }
-  
-  .site-nav ul {
+  /* Tab container */
+  .site-links {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
+    padding-right: 2em; /* Align with content */
   }
   
-  .site-nav li {
-    margin-right: 25px;
+  .site-links li {
+    margin-left: 25px;
   }
   
-  .site-nav a {
+  .site-links a {
     color: #000; 
     text-decoration: none;
     padding: 5px 0;
@@ -68,31 +58,31 @@
     display: block;
   }
   
-  .site-nav a:hover {
+  .site-title a:hover,
+  .site-links a:hover {
     color: #007bff;
     text-decoration: none;
   }
   
   /* Mobile navigation */
   @media screen and (max-width: 768px) {
-    .site-nav-container {
+    .site-nav {
       flex-direction: column;
+      align-items: center;
     }
     
-    .site-title,
-    .site-nav {
-      width: 100%;
-      padding-left: 0;
-      margin-left: 0;
+    .site-title {
+      margin: 0 0 1em 0;
       text-align: center;
     }
     
-    .site-nav ul {
+    .site-links {
       justify-content: center;
       flex-wrap: wrap;
+      padding-right: 0;
     }
     
-    .site-nav li {
+    .site-links li {
       margin: 5px 10px;
     }
   }
@@ -100,25 +90,24 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <!-- Site title (Garcia Lab) as first tab on the left -->
-    <div class="site-title">
-      <a href="{{ base_path }}/">Garcia Lab</a>
-    </div>
-    
-    <!-- All other navigation tabs -->
-    <div class="site-nav-container">
-      <nav class="site-nav">
-        <ul>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </div>
+    <!-- Single navigation with title and links on same line -->
+    <nav class="site-nav">
+      <!-- Site title (Garcia Lab) on left -->
+      <div class="site-title">
+        <a href="{{ base_path }}/">Garcia Lab</a>
+      </div>
+      
+      <!-- All navigation tabs on right -->
+      <ul class="site-links">
+        {% for link in site.data.navigation.main %}
+          {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+          {% else %}
+            {% assign domain = base_path %}
+          {% endif %}
+          <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
   </div>
 </div>
