@@ -70,6 +70,6 @@ title: "Contact Us"
   
   <div class="join-us">
     <h3 class="contact-heading">Join Our Lab</h3>
-    <p>Students and experienced Researchers interested in contributing to the lab should send Dr. Garcia a CV and a short description of their research interests.</p>
+    <p>Students and experienced researchers interested in contributing to the lab should send Dr. Garcia a CV and a short description of their research interests.</p>
   </div>
 </div>
