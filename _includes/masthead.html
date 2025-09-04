@@ -22,7 +22,7 @@
   
   /* Site title (Garcia Lab) */
   .site-title {
-    margin-right: auto; /* Keep this to push title to the left */
+    flex: 0 0 150px; /* Fixed width for title */
     margin-left: 36px;
     font-size: 1.1em;
     font-weight: 500;
@@ -35,18 +35,23 @@
     transition: color 0.2s;
   }
   
-  /* Tab container - moved further left */
+  /* Tab container */
   .site-links {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-    /* Remove margin-right: auto; to allow links to stay right */
-    margin-left: -300px; /* Use negative margin to pull tabs left */
+    flex: 1;
+    margin-left: 20px; /* Spacing after title */
+    justify-content: flex-start; /* Align tabs to the left */
   }
   
   .site-links li {
-    margin-left: 25px;
+    margin-right: 25px; /* Space between tabs */
+  }
+  
+  .site-links li:last-child {
+    margin-right: 0;
   }
   
   .site-links a {
@@ -73,6 +78,7 @@
     }
     
     .site-title {
+      flex: initial;
       margin: 0 0 1em 0;
       text-align: center;
     }
@@ -80,7 +86,7 @@
     .site-links {
       justify-content: center;
       flex-wrap: wrap;
-      padding-right: 0;
+      margin-left: 0;
     }
     
     .site-links li {
@@ -98,7 +104,7 @@
         <a href="{{ base_path }}/">Garcia Lab</a>
       </div>
       
-      <!-- All navigation tabs on right -->
+      <!-- All navigation tabs - now moved left -->
       <ul class="site-links">
         {% for link in site.data.navigation.main %}
           {% if link.url contains 'http' %}
