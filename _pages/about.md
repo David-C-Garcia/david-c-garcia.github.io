@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: " "
 # excerpt: "David C. Garcia - Caltech"
 author_profile: true
 redirect_from: 
