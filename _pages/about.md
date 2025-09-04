@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Garcia Lab At the University of Maryland, Baltimore County"
+title: ""
 # excerpt: "David C. Garcia - Caltech"
 author_profile: true
 redirect_from: 

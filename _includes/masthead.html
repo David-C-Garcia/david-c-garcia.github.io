@@ -25,7 +25,10 @@
   .site-nav {
     display: flex;
     justify-content: flex-end;
+    /* Align with main content area by matching container width */
     padding-right: 2em;
+    width: 75%;
+    margin-left: auto;
     margin-top: 1em;
   }
   
@@ -34,21 +37,26 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    width: 100%;
+    justify-content: flex-end;
   }
   
   .site-nav li {
-    margin: 0 15px;
+    margin: 0 20px;
   }
   
   .site-nav a {
-    color: #333;
+    color: #000; /* Make text black */
     text-decoration: none;
     padding: 5px 0;
-    font-size: 1em;
+    font-size: 1.1em; /* Make text bigger */
+    font-weight: 500; /* Slightly bolder */
+    transition: color 0.2s;
   }
   
   .site-nav a:hover {
     color: #007bff;
+    text-decoration: none;
   }
   
   /* Mobile navigation */
@@ -61,10 +69,11 @@
     .site-nav {
       justify-content: center;
       padding-right: 0;
+      width: 100%;
     }
     
     .site-nav li {
-      margin: 0 8px;
+      margin: 0 10px;
     }
   }
 </style>
@@ -82,7 +91,16 @@
         {% for link in site.data.navigation.main %}
           {% if link.url contains 'http' %}
             {% assign domain = '' %}
-          {% else %}
+
+
+
+
+
+
+
+
+
+</div>  </div>    </nav>      </ul>        {% endfor %}          <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>          {% endif %}            {% assign domain = base_path %}          {% else %}          {% else %}
             {% assign domain = base_path %}
           {% endif %}
           <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
