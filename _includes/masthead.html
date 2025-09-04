@@ -32,42 +32,50 @@
   
   .greedy-nav {
     display: flex;
-    width: auto;
+    width: 100%; /* Take full width to ensure proper spacing */
   }
   
   .greedy-nav .visible-links {
     display: flex;
-    flex-wrap: nowrap; /* Prevent wrapping which causes jumbling */
+    flex-wrap: nowrap; /* Keep all tabs on one line */
     justify-content: flex-end;
-    overflow-x: auto; /* Allow horizontal scrolling if needed */
-    -webkit-overflow-scrolling: touch;
-    padding-bottom: 5px; /* Space for potential scrollbar */
+    width: 100%; /* Full width to utilize space */
   }
   
   .greedy-nav .visible-links li {
     display: inline-block;
-    margin-right: 1.5em; /* Increase spacing between tabs */
+    margin: 0 10px; /* Even spacing on both sides */
+    padding: 0 5px; /* Additional padding for clickable area */
     white-space: nowrap;
-    position: relative; /* For potential dropdown positioning */
   }
   
   .greedy-nav .visible-links li:last-child {
     margin-right: 0;
   }
   
+  .greedy-nav .visible-links li a {
+    padding: 8px 5px; /* Taller clickable area */
+    font-size: 1em; /* Consistent font size */
+  }
+  
+  /* Hide scrollbar but allow scrolling if needed */
+  .greedy-nav .visible-links {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    overflow-x: auto;
+  }
+  
+  .greedy-nav .visible-links::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
   /* Responsive adjustments */
   @media screen and (max-width: 900px) {
     .greedy-nav .visible-links {
-      flex-wrap: wrap; /* Allow wrapping on smaller screens */
-      justify-content: center;
-    }
-    
-    .greedy-nav .visible-links li {
-      margin: 0.3em 0.8em;
+      justify-content: space-between; /* Evenly distribute on smaller screens */
     }
     
     .masthead__menu {
-      justify-content: center;
       padding-right: 0;
     }
   }
@@ -76,6 +84,10 @@
     .site-title {
       margin-left: 0;
       text-align: center;
+    }
+    
+    .greedy-nav .visible-links li {
+      margin: 0 5px; /* Tighter spacing on mobile */
     }
   }
 </style>
