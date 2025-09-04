@@ -91,16 +91,7 @@
         {% for link in site.data.navigation.main %}
           {% if link.url contains 'http' %}
             {% assign domain = '' %}
-
-
-
-
-
-
-
-
-
-</div>  </div>    </nav>      </ul>        {% endfor %}          <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>          {% endif %}            {% assign domain = base_path %}          {% else %}          {% else %}
+          {% else %}
             {% assign domain = base_path %}
           {% endif %}
           <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
