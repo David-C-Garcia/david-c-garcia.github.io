@@ -15,33 +15,38 @@
     flex-direction: column;
   }
   
-  /* Site title styling */
+  /* Site title styling - this is the Garcia Lab tab on the left */
   .site-title {
     margin-left: 36px;
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 1.1em;
+    font-weight: 500;
     margin-bottom: 0.8em;
   }
   
-  /* Navigation container with two sections */
+  .site-title a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px 0;
+    transition: color 0.2s;
+  }
+  
+  .site-title a:hover {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Navigation container */
   .site-nav-container {
     display: flex;
     width: 100%;
   }
   
-  /* First tab styling */
-  .site-nav-primary {
-    width: 25%;
-    padding-left: 36px;
-  }
-  
-  /* Remaining tabs styling */
-  .site-nav-secondary {
+  /* All tabs styling */
+  .site-nav {
     width: 75%;
     padding-left: 20px; /* Align with content */
   }
   
-  /* Common navigation styles */
   .site-nav ul {
     display: flex;
     list-style: none;
@@ -75,8 +80,7 @@
     }
     
     .site-title,
-    .site-nav-primary,
-    .site-nav-secondary {
+    .site-nav {
       width: 100%;
       padding-left: 0;
       margin-left: 0;
@@ -96,31 +100,16 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <!-- Site title -->
+    <!-- Site title (Garcia Lab) as first tab on the left -->
     <div class="site-title">
-      <a href="{{ base_path }}/">{{ site.title }}</a>
+      <a href="{{ base_path }}/">Garcia Lab</a>
     </div>
     
-    <!-- Two-part navigation -->
+    <!-- All other navigation tabs -->
     <div class="site-nav-container">
-      <!-- First tab -->
-      <nav class="site-nav site-nav-primary">
+      <nav class="site-nav">
         <ul>
-          {% for link in site.data.navigation.main limit:1 %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
-      
-      <!-- Remaining tabs -->
-      <nav class="site-nav site-nav-secondary">
-        <ul>
-          {% for link in site.data.navigation.main offset:1 %}
+          {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
