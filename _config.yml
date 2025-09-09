@@ -78,7 +78,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Garcia Lab"
+  name             : ""
   avatar           : "Lab-Logo.png"
   bio              : "Cell-Free Synthetic Biology Lab at UMBC"
   location         : "Baltimore, MD, USA"
