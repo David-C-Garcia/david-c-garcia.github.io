@@ -33,7 +33,8 @@ header:
   width: 120px;
   height: 120px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 0;
+  aspect-ratio: 1 / 1;
   margin-bottom: 1.2em;
   background: #eee;
   display: block;
