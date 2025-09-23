@@ -22,11 +22,16 @@ author_profile: false
 	border-radius: 0;
 	aspect-ratio: 1/1;
 	box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+	vertical-align: top;
+	display: block;
 }
 .bio-flex .bio-text {
 	flex: 1;
 	font-size: 1.08em;
 	line-height: 1.7;
+	margin-top: 0;
+	padding-top: 0;
+	display: block;
 }
 @media (max-width: 700px) {
 	.bio-flex { flex-direction: column; gap: 1.2em; }
