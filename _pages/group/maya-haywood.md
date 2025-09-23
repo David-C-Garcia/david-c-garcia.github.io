@@ -31,7 +31,7 @@ author_profile: false
 	flex: 1;
 	font-size: 1.08em;
 	line-height: 1.7;
-	margin-top: 0;
+	margin-top: -18px;
 	padding-top: 0;
 	display: block;
 }
