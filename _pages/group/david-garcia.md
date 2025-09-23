@@ -22,8 +22,10 @@ author_profile: false
 	border-radius: 0;
 	aspect-ratio: 1/1;
 	box-shadow: 0 2px 10px rgba(0,0,0,0.07);
-	vertical-align: top;
-	display: block;
+	align-self: flex-start;
+	display: inline-block;
+	vertical-align: text-top;
+	margin-top: 0;
 }
 .bio-flex .bio-text {
 	flex: 1;
