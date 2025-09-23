@@ -33,7 +33,7 @@ header:
   width: 120px;
   height: 120px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 12px;
   margin-bottom: 1.2em;
   background: #eee;
   display: block;
@@ -68,6 +68,7 @@ header:
 </style>
 
 
+
 <section id="group" class="group-section">
   <div class="container">
     <div class="group-members">
@@ -76,28 +77,19 @@ header:
         <h3>David C. Garcia</h3>
         <p>Principal Investigator</p>
         <p>Assistant Professor in CBEE</p>
-        <p>Ph.D., University of Tennessee, Knoxville</p>
-        <p>Postdoc, Caltech and DEVCOM CBC</p>
         <a href="/group/david-garcia/" class="bio-link">Read full bio →</a>
       </div>
-    </div>
-  </div>
-</section>
-
-<section id="graduate-students" class="group-section">
-  <div class="container">
-    <h2 style="text-align:center; margin-top:2em;">Graduate Students</h2>
-    <div class="group-members">
       <div class="member">
         <img src="/images/lab_portraits/MHaywood_portrait.jpg" alt="Maya Haywood" class="group-img" />
         <h3>Maya Haywood</h3>
-        <p>PhD Student, Chemical Engineering</p>
+        <p>PhD Student in Chemical Engineering</p>
         <p>B.S. Biomedical Engineering, Penn State</p>
         <p>GRISE & PROMISE Fellow</p>
-        <p>Research: Cell-free systems, ML-aided enzyme engineering</p>
         <a href="/group/maya-haywood/" class="bio-link">Read full bio →</a>
       </div>
     </div>
   </div>
 </section>
+
+
 

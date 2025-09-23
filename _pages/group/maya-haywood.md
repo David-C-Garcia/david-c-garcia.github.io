@@ -5,7 +5,7 @@ permalink: /group/maya-haywood/
 author_profile: false
 ---
 
-<img src="/images/placeholder.png" alt="Maya Haywood" style="width:140px; border-radius:50%; display:block; margin:2em auto 1em auto;" />
+<img src="/images/lab_portraits/MHaywood_portrait.jpg" alt="Maya Haywood" style="width:140px; height:140px; object-fit:cover; border-radius:12px; display:block; margin:2em auto 1em auto;" />
 
 ## Maya Haywood
 

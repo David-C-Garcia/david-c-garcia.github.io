@@ -5,7 +5,7 @@ permalink: /group/david-garcia/
 author_profile: false
 ---
 
-<img src="/images/David-portrait.png" alt="David C. Garcia" style="width:140px; border-radius:50%; display:block; margin:2em auto 1em auto;" />
+<img src="/images/lab_portraits/David-portrait.pngDavid-portrait.png" alt="David C. Garcia" style="width:140px; border-radius:50%; display:block; margin:2em auto 1em auto;" />
 
 ## David C. Garcia
 
