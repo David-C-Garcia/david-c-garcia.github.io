@@ -11,7 +11,7 @@ author_profile: false
 	display: flex;
 	align-items: flex-start;
 	gap: 2em;
-	margin: 2em 0 2.5em 0;
+	margin: 0 0 2.5em 0;
 }
 .bio-flex .bio-img {
 	width: 220px;

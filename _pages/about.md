@@ -86,8 +86,8 @@ redirect_from:
 </style>
 
 <div class="about-container">
-  <img src="/images/Laboratory_Vision.png" class="featured-image" alt="Garcia Lab Vision" />
   <h1 class="section-heading">Welcome to the Garcia Lab at UMBC</h1>
+  <img src="/images/Laboratory_Vision.png" class="featured-image" alt="Garcia Lab Vision" />
   <p style="text-align: justify; font-size: 1.05em; line-height: 1.6;">
     The Garcia Lab at UMBC utilizes the tools of cell-free synthetic biology to perform high-throughput characterization of cell-free biological systems with the goal of both understanding their fundamental function and improving their ability to generate novel mechanisms for biological sensing and biological production. The modular nature of cell-free synthetic biology enables us to not just engineer but design systems made to function in specific complex environments whether it be a clinical setting, an industrial plant, or a resource-limited setting. Please see the <a href="https://david-c-garcia.github.io//research/">Research</a> page for more details on the projects helping us achieve this vision.
   </p>
