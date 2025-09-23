@@ -9,37 +9,41 @@ redirect_from:
 ---
 
 
+
 <style>
-.about-hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: linear-gradient(120deg, #f5f7fa 0%, #c3cfe2 100%);
-  border-radius: 18px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
-  padding: 2.5em 2em 2em 2em;
-  margin: 2em auto 3em auto;
-  max-width: 900px;
+/* Modern styling for about page, inspired by research section */
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
-.about-hero img {
-  width: 80%;
-  max-width: 600px;
-  border-radius: 12px;
-  margin-bottom: 2em;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+.section-heading {
+  font-size: 1.6em;
+  color: #2a2a2a;
+  margin: 1.8em 0 1em 0;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid #f2f2f2;
 }
-.about-hero h1 {
-  font-size: 2.2em;
-  color: #222;
-  margin-bottom: 0.5em;
-  font-weight: 700;
+.highlight-text {
+  background: linear-gradient(to bottom, transparent 50%, rgba(66, 133, 244, 0.15) 50%);
+  padding: 0 4px;
 }
-.about-hero p {
-  color: #444;
-  font-size: 1.15em;
-  line-height: 1.7;
-  max-width: 700px;
-  margin-bottom: 0;
+.featured-image {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 2em auto;
+  transition: transform 0.3s ease;
+  max-width: 100%;
+  display: block;
+}
+.featured-image:hover {
+  transform: translateY(-5px);
+}
+.text-block {
+  background-color: #f9f9f9;
+  border-left: 4px solid #4285f4;
+  padding: 1.5em;
+  margin: 2em 0;
+  border-radius: 0 8px 8px 0;
 }
 .lab-news-section {
   background: #fff;
@@ -81,22 +85,28 @@ redirect_from:
 }
 </style>
 
-<section class="about-hero">
-  <img src="/images/Laboratory_Vision.png" alt="Garcia Lab Vision" />
-  <h1>Welcome to the Garcia Lab at UMBC</h1>
-  <p>
+<div class="about-container">
+  <img src="/images/Laboratory_Vision.png" class="featured-image" alt="Garcia Lab Vision" />
+  <h1 class="section-heading">Welcome to the Garcia Lab at UMBC</h1>
+  <p style="text-align: justify; font-size: 1.05em; line-height: 1.6;">
     The Garcia Lab at UMBC utilizes the tools of cell-free synthetic biology to perform high-throughput characterization of cell-free biological systems with the goal of both understanding their fundamental function and improving their ability to generate novel mechanisms for biological sensing and biological production. The modular nature of cell-free synthetic biology enables us to not just engineer but design systems made to function in specific complex environments whether it be a clinical setting, an industrial plant, or a resource-limited setting. Please see the <a href="https://david-c-garcia.github.io//research/">Research</a> page for more details on the projects helping us achieve this vision.
   </p>
-</section>
 
-<section class="lab-news-section">
-  <h2>Lab News</h2>
-  <ul class="lab-news-list">
-    <!-- Example event. Duplicate and edit for new events. -->
-    <li>
-      <span class="lab-news-date">2025-08-23</span>
-      <span class="lab-news-content">The Garcia lab at UMBC opens its doors.</span>
-    </li>
-    <!-- Add more events below by duplicating the <li> block -->
-  </ul>
-</section>
+  <div class="text-block">
+    <p style="text-align: justify; font-size: 1.1em; line-height: 1.6; margin: 0;">
+      <b>Our lab is dedicated to advancing cell-free synthetic biology for real-world impact, combining high-throughput experimentation with data-driven design to create robust, scalable biological tools.</b>
+    </p>
+  </div>
+
+  <section class="lab-news-section">
+    <h2>Lab News</h2>
+    <ul class="lab-news-list">
+      <!-- Example event. Duplicate and edit for new events. -->
+      <li>
+        <span class="lab-news-date">2025-08-23</span>
+        <span class="lab-news-content">The Garcia lab at UMBC opens its doors.</span>
+      </li>
+      <!-- Add more events below by duplicating the <li> block -->
+    </ul>
+  </section>
+</div>

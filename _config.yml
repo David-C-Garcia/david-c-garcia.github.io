@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Garcia Lab"
 title_separator          : "-"
-name                     : &name "Garcia Lab"
+name                     : &name ""
 description              : &description "Cell-Free Synthetic Biology Lab at UMBC"
 url                      : https://david-c-garcia.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
