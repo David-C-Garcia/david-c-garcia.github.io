@@ -52,7 +52,7 @@ title: "Contact Us"
     </div>
     <div class="contact-text">
       <h3 class="contact-heading">Email</h3>
-      <p>DavidCGarcia [at] UMBC.edu</p>
+      <p>GarciaLab[at]UMBC.EDU</p>
     </div>
   </div>
   
