@@ -43,9 +43,7 @@ title: "Contact Us"
 }
 </style>
 
-<div class="contact-container">
-  <h2>Get in Touch</h2>
-  
+<div class="contact-container">  
   <div class="contact-item">
     <div class="contact-icon">
       <i class="fas fa-envelope"></i>
