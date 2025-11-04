@@ -122,7 +122,7 @@ header:
 
   <div class="text-block">
     <p style="text-align: justify; font-size: 1.1em; line-height: 1.6; margin: 0;">
-    <b>My lab will focus on developing new strategies that expand our traditional models of biomanufacturing sensors, materials, and molecules by taking a data-driven and multiplexed approach to elucidate the fundamental principles of scalable cell-free synthetic biology.</b>
+    <b>Our lab focuses on developing new strategies that expand our traditional models of biomanufacturing sensors, materials, and molecules by taking a data-driven and multiplexed approach to elucidate the fundamental principles of scalable cell-free synthetic biology.</b>
     </p>
   </div>
 
@@ -130,7 +130,7 @@ header:
 
   <h2 class="section-heading">Current Research</h2>
   <p style="text-align: justify; font-size: 1.05em; line-height: 1.6;">
-  My current project focuses on the use of <span class="highlight-text">protein language models</span> to interrogate the substrate specificity and promiscuity of novel biocatalysts, using melanin as a model system for the large-scale production of biological polymers. This approach not only takes advantage of powerful pretrained protein language models but also makes effective use of high-throughput empirical verification to corroborate and fine-tune computational workflows.
+  My current project focuses on the use of protein language models to interrogate the substrate specificity and promiscuity of novel biocatalysts, using melanin as a model system for the large-scale production of biological polymers. This approach not only takes advantage of powerful pretrained protein language models but also makes effective use of high-throughput empirical verification to corroborate and fine-tune computational workflows.
   </p>
 
   <h2 class="section-heading">Future Directions</h2>
