@@ -99,8 +99,12 @@ redirect_from:
     <ul class="lab-news-list">
       <!-- Example event. Duplicate and edit for new events. -->
       <li>
-        <span class="lab-news-date">2025-08-23</span>
+        <span class="lab-news-date">Aug-23-2025</span>
         <span class="lab-news-content">The Garcia lab at UMBC opens its doors.</span>
+      </li>
+      <li>
+        <span class="lab-news-date">Nov-20-2025</span>
+        <span class="lab-news-content">Dr. Garcia presented his work at the Baltimore Underground Science Space (BUGSS) Science Slam.</span>
       </li>
       <!-- Add more events below by duplicating the <li> block -->
     </ul>
