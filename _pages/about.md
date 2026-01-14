@@ -99,6 +99,10 @@ redirect_from:
     <ul class="lab-news-list">
       <!-- Example event. Duplicate and edit for new events. -->
       <li>
+        <span class="lab-news-date">Jan-8-2026</span>
+        <span class="lab-news-content">David presented the first invited talk from the lab at the Mid-Atlantic Synthetic Biology Network (MASBN) symposium.</span>
+      </li>
+      <li>
         <span class="lab-news-date">Aug-23-2025</span>
         <span class="lab-news-content">The Garcia lab at UMBC opens its doors.</span>
       </li>
