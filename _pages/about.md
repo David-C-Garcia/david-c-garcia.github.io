@@ -103,12 +103,12 @@ redirect_from:
         <span class="lab-news-content">David presented the first invited talk from the lab at the Mid-Atlantic Synthetic Biology Network (MASBN) symposium.</span>
       </li>
       <li>
-        <span class="lab-news-date">Aug-23-2025</span>
-        <span class="lab-news-content">The Garcia lab at UMBC opens its doors.</span>
+        <span class="lab-news-date">Nov-20-2025</span>
+        <span class="lab-news-content">David presented their work at the Baltimore Underground Science Space (BUGSS) Science Slam.</span>
       </li>
       <li>
-        <span class="lab-news-date">Nov-20-2025</span>
-        <span class="lab-news-content">Dr. Garcia presented his work at the Baltimore Underground Science Space (BUGSS) Science Slam.</span>
+        <span class="lab-news-date">Aug-23-2025</span>
+        <span class="lab-news-content">The Garcia lab at UMBC opens its doors.</span>
       </li>
       <!-- Add more events below by duplicating the <li> block -->
     </ul>
