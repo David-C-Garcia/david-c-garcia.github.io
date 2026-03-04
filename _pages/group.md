@@ -93,8 +93,14 @@ header:
         <h3>Haddijatou Niasse</h3>
         <p>Chemical Engineering Undergraduate Student</p>
         <p>Bioengineering Track, UMBC</p>
-        <p>Research: Biological species interactions & enzyme interactions</p>
         <a href="/group/haddijatou-niasse/" class="bio-link">Read full bio →</a>
+      </div>
+      <div class="member">
+        <img src="/images/lab_portraits/Damilola_portrait.jpg" alt="Damilola Fapohunda" class="group-img" />
+        <h3>Damilola Fapohunda</h3>
+        <p>Chemical Engineering Undergraduate Student</p>
+        <p>Biotechnology Track, UMBC | Creative Writing Minor</p>
+        <a href="/group/damilola-fapohunda/" class="bio-link">Read full bio →</a>
       </div>
     </div>
   </div>

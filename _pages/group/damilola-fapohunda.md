@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Haddijatou Niasse"
-permalink: /group/haddijatou-niasse/
+title: "Damilola Fapohunda"
+permalink: /group/damilola-fapohunda/
 author_profile: false
 ---
 
@@ -42,9 +42,10 @@ author_profile: false
 </style>
 
 <div class="bio-flex">
-	<img src="/images/lab_portraits/Haddi_portrait.jpg" alt="Haddijatou Niasse" class="bio-img" />
+	<img src="/images/lab_portraits/Damilola_portrait.jpg" alt="Damilola Fapohunda" class="bio-img" />
 	<div class="bio-text">
-		Haddijatou Niasse is a Chemical Engineering undergraduate student on the Bioengineering track at the University of Maryland, Baltimore County. Her work focuses on the interaction of microbial organisms from complex environments. In the future, she hopes to pursue her Ph.D. in a related field. In her free time, she enjoys taking walks, reading, and cooking.
+		Damilola Fapohunda is a Biotechnology track Chemical Engineering major and Creative Writing minor at the University of Maryland, Baltimore County. Her project is focused on understanding and optimizing cell free metabolic processes, starting with glycolysis. She is also interested in metabolic engineering and traditional African medicine. Outside of research, she enjoys trying new food, playing volleyball, and gardening.
 	</div>
 </div>
+
 
