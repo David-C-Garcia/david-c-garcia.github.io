@@ -44,7 +44,7 @@ author_profile: false
 <div class="bio-flex">
 	<img src="/images/lab_portraits/Haddi_portrait.jpg" alt="Haddijatou Niasse" class="bio-img" />
 	<div class="bio-text">
-		Haddijatou Niasse is a Chemical Engineering undergraduate student on the Bioengineering track at the University of Maryland, Baltimore County. Her work focuses on the interaction of various biological species in multiple conditions, including enzyme interactions. In the future, she hopes to pursue her Ph.D. in a related field. In her free time, she enjoys taking walks, reading, and cooking.
+		Haddijatou Niasse is a Chemical Engineering undergraduate student on the Bioengineering track at the University of Maryland, Baltimore County. Her work focuses on the interaction of microbial organisms from complex environments. In the future, she hopes to pursue her Ph.D. in a related field. In her free time, she enjoys taking walks, reading, and cooking.
 	</div>
 </div>
 
