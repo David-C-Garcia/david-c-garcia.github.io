@@ -103,7 +103,7 @@ header:
         <a href="/group/damilola-fapohunda/" class="bio-link">Read full bio →</a>
       </div>
       <div class="member">
-        <img src="/images/lab_portraits/Idrees _protrait.JPEG" alt="Idrees Chaudry" class="group-img" />
+        <img src="/images/lab_portraits/Idrees _protrait.png" alt="Idrees Chaudry" class="group-img" />
         <h3>Idrees Chaudry</h3>
         <p>Biochemistry and Molecular Biology, UMBC</p>
         <a href="/group/idrees-chaudry/" class="bio-link">Read full bio →</a>
