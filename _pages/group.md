@@ -88,6 +88,14 @@ header:
         <p>GRISE & PROMISE Fellow</p>
         <a href="/group/maya-haywood/" class="bio-link">Read full bio →</a>
       </div>
+      <div class="member">
+        <img src="/images/lab_portraits/Haddi_portrait.jpg" alt="Haddijatou Niasse" class="group-img" />
+        <h3>Haddijatou Niasse</h3>
+        <p>Chemical Engineering Undergraduate Student</p>
+        <p>Bioengineering Track, UMBC</p>
+        <p>Research: Biological species interactions & enzyme interactions</p>
+        <a href="/group/haddijatou-niasse/" class="bio-link">Read full bio →</a>
+      </div>
     </div>
   </div>
 </section>
