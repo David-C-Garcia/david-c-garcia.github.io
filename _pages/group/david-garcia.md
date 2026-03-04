@@ -48,12 +48,6 @@ author_profile: false
 	</div>
 </div>
 
-**Research Interests:**  
-- Synthetic biology  
-- Cell-free systems  
-- Biomanufacturing  
-- Modular biocatalysis  
-- Sustainable materials
 
 **Contact:**  
 [Email](mailto:DavidCGarcia@UMBC.edu)  

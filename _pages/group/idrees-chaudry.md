@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Maya Haywood"
-permalink: /group/maya-haywood/
+title: "Idrees Chaudry"
+permalink: /group/idrees-chaudry/
 author_profile: false
 ---
 
@@ -42,13 +42,9 @@ author_profile: false
 </style>
 
 <div class="bio-flex">
-	<img src="/images/lab_portraits/MHaywood_portrait.jpg" alt="Maya Haywood" class="bio-img" />
+	<img src="/images/lab_portraits/Idrees _protrait.JPEG" alt="Idrees Chaudry" class="bio-img" />
 	<div class="bio-text">
-		Maya is currently a Chemical Engineering PhD student at University of Maryland Baltimore County. She earned her B.S. in Biomedical Engineering at Penn State University with a Biochemical focus. At UMBC, she is a GRISE and PROMISE Fellow. Her work focuses on using cell-free systems aided by machine learning to enhance enzyme specificity and reaction kinetics. Outside of the lab, she likes to go to cat cafes, hike, watch movies, and volunteer at local dog shelters.
+		Idrees is currently a senior undergraduate researcher at the University of Maryland, Baltimore County pursuing a B.S. in Biochemistry and Molecular Biology. His research focuses on developing and optimizing a cell-free protein synthesis system to measure glycolytic flux under different metabolic conditions. In his free time he likes to play basketball, football, practice Brazilian jujistu, and hike.
 	</div>
 </div>
 
-
-**Contact:**  
-[Email](mailto:CW59212@umbc.edu)  
-[LinkedIn](https://www.linkedin.com/in/maya-haywood-01a6311a2/)
