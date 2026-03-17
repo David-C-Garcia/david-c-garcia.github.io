@@ -51,5 +51,5 @@ author_profile: false
 
 **Contact:**  
 [Email](mailto:DavidCGarcia@UMBC.edu)  
-[LinkedIn](https://www.linkedin.com/in/davidcgarcia)
+[LinkedIn](https://www.linkedin.com/in/david-c-garcia-172602ba/)
 You can download a pdf version of my CV [here](/files/pdf/cv/DGarcia_CV.pdf).
