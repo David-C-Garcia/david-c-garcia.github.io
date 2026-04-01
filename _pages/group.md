@@ -108,6 +108,13 @@ header:
         <p>Biochemistry and Molecular Biology, UMBC</p>
         <a href="/group/idrees-chaudry/" class="bio-link">Read full bio →</a>
       </div>
+      <div class="member">
+        <img src="/images/lab_portraits/camille_portrait.png" alt="Camille" class="group-img" />
+        <h3>Camille</h3>
+        <p>Master's Student in Chemical Engineering</p>
+        <p>University of Maryland, Baltimore County</p>
+        <a href="/group/camille/" class="bio-link">Read full bio →</a>
+      </div>
     </div>
   </div>
 </section>
