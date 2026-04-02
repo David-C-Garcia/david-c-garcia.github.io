@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Camille"
+title: "Camille Basden"
 permalink: /group/camille/
 author_profile: false
 ---

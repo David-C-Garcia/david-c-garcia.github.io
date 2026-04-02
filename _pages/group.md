@@ -91,7 +91,7 @@ header:
       </div>
       <div class="member">
         <img src="/images/lab_portraits/camille_portrait.png" alt="Camille Basden" class="group-img" />
-        <h3>Camille</h3>
+        <h3>Camille Basden</h3>
         <p>Master's Student in Chemical Engineering</p>
         <p>UMBC</p>
         <a href="/group/camille/" class="bio-link">Full Bio</a>
