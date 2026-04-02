@@ -130,12 +130,12 @@ header:
 
   <h2 class="section-heading">Current Research</h2>
   <p style="text-align: justify; font-size: 1.05em; line-height: 1.6;">
-  My current project focuses on the use of protein language models to interrogate the substrate specificity and promiscuity of novel biocatalysts, using melanin as a model system for the large-scale production of biological polymers. This approach not only takes advantage of powerful pretrained protein language models but also makes effective use of high-throughput empirical verification to corroborate and fine-tune computational workflows.
+  Our current project focuses on the use of protein language models to interrogate the substrate specificity and promiscuity of novel biocatalysts, using melanin as a model system for the large-scale production of biological polymers. This approach not only takes advantage of powerful pretrained protein language models but also makes effective use of high-throughput empirical verification to corroborate and fine-tune computational workflows.
   </p>
 
   <h2 class="section-heading">Future Directions</h2>
   <p style="text-align: justify; font-size: 1.05em; line-height: 1.6;">
-  My future work will focus on three key projects to take a holistic approach to generating the tools and fundamental knowledge to develop cell-free systems as scalable biomanufacturing platforms and research tools: 
+  Future work will focus on three key projects to take a holistic approach to generating the tools and fundamental knowledge to develop cell-free systems as scalable biomanufacturing platforms and research tools: 
   </p>
   <ul style="line-height: 1.6; font-size: 1.05em; margin-left: 1.5em;">
     <li>Computationally driven design of biosensors</li>

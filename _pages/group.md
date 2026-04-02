@@ -54,17 +54,18 @@ header:
 .bio-link {
   display: inline-block;
   margin-top: 1em;
-  padding: 0.4em 0.8em;
-  background-color: #f5f7f9;
+  padding: 0em;
+  background-color: transparent;
   color: #007acc;
-  border-radius: 4px;
+  border-radius: 0px;
   text-decoration: none;
   font-size: 0.9em;
-  transition: background-color 0.2s;
+  transition: color 0.2s;
 }
 .bio-link:hover {
-  background-color: #e5f0fa;
+  background-color: transparent;
   text-decoration: none;
+  color: #005a9c;
 }
 </style>
 
@@ -78,7 +79,7 @@ header:
         <h3>David C. Garcia</h3>
         <p>Principal Investigator</p>
         <p>Assistant Professor in CBEE</p>
-        <a href="/group/david-garcia/" class="bio-link">Read full bio →</a>
+        <a href="/group/david-garcia/" class="bio-link">Full Bio</a>
       </div>
       <div class="member">
         <img src="/images/lab_portraits/MHaywood_portrait.jpg" alt="Maya Haywood" class="group-img" />
@@ -86,34 +87,34 @@ header:
         <p>PhD Student in Chemical Engineering</p>
         <p>B.S. Biomedical Engineering, Penn State</p>
         <p>GRISE & PROMISE Fellow</p>
-        <a href="/group/maya-haywood/" class="bio-link">Read full bio →</a>
+        <a href="/group/maya-haywood/" class="bio-link">Full Bio</a>
+      </div>
+      <div class="member">
+        <img src="/images/lab_portraits/camille_portrait.png" alt="Camille Basden" class="group-img" />
+        <h3>Camille</h3>
+        <p>Master's Student in Chemical Engineering</p>
+        <p>UMBC</p>
+        <a href="/group/camille/" class="bio-link">Full Bio</a>
       </div>
       <div class="member">
         <img src="/images/lab_portraits/Haddi_portrait.jpg" alt="Haddijatou Niasse" class="group-img" />
         <h3>Haddijatou Niasse</h3>
         <p>Chemical Engineering Undergraduate Student</p>
         <p>Bioengineering Track, UMBC</p>
-        <a href="/group/haddijatou-niasse/" class="bio-link">Read full bio →</a>
+        <a href="/group/haddijatou-niasse/" class="bio-link">Full Bio</a>
       </div>
       <div class="member">
         <img src="/images/lab_portraits/Damilola_portrait.jpg" alt="Damilola Fapohunda" class="group-img" />
         <h3>Damilola Fapohunda</h3>
         <p>Chemical Engineering Undergraduate Student</p>
         <p>Biotechnology Track, UMBC | Creative Writing Minor</p>
-        <a href="/group/damilola-fapohunda/" class="bio-link">Read full bio →</a>
+        <a href="/group/damilola-fapohunda/" class="bio-link">Full Bio</a>
       </div>
       <div class="member">
         <img src="/images/lab_portraits/Idrees _protrait.png" alt="Idrees Chaudry" class="group-img" />
         <h3>Idrees Chaudry</h3>
         <p>Biochemistry and Molecular Biology, UMBC</p>
-        <a href="/group/idrees-chaudry/" class="bio-link">Read full bio →</a>
-      </div>
-      <div class="member">
-        <img src="/images/lab_portraits/camille_portrait.png" alt="Camille" class="group-img" />
-        <h3>Camille</h3>
-        <p>Master's Student in Chemical Engineering</p>
-        <p>University of Maryland, Baltimore County</p>
-        <a href="/group/camille/" class="bio-link">Read full bio →</a>
+        <a href="/group/idrees-chaudry/" class="bio-link">Full Bio</a>
       </div>
     </div>
   </div>

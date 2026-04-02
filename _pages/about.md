@@ -83,6 +83,14 @@ redirect_from:
 .lab-news-content {
   flex: 1;
 }
+.lab-news-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex-shrink: 0;
+}
 </style>
 
 <div class="about-container">
@@ -98,6 +106,17 @@ redirect_from:
     <h2>Lab News</h2>
     <ul class="lab-news-list">
       <!-- Example event. Duplicate and edit for new events. -->
+      <li>
+        <span class="lab-news-date">Mar-24-2026</span>
+        <span class="lab-news-content">David gave a talk at the ACS Spring 2026 meeting on developing biological polymers using cell-free synthetic biology.</span>
+      </li>
+      <li>
+        <span class="lab-news-date">Mar-20-2026</span>
+        <div class="lab-news-content">
+          <img src="/images/lab_updates/NSBE_Maya.jpg" alt="Maya presentation" class="lab-news-image" style="float: right; margin-left: 1em; margin-bottom: 0.5em;" />
+          <span>Maya gave a presentation on her project at the NSBE conference.</span>
+        </div>
+      </li>
       <li>
         <span class="lab-news-date">Jan-8-2026</span>
         <span class="lab-news-content">David presented the first invited talk from the lab at the Mid-Atlantic Synthetic Biology Network (MASBN) symposium.</span>
