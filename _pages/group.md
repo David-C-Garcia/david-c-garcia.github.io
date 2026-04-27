@@ -97,6 +97,13 @@ header:
         <a href="/group/camille/" class="bio-link">Full Bio</a>
       </div>
       <div class="member">
+        <img src="/images/lab_portraits/Nuri_portrait.png" alt="Nuri Abdul-Rahman" class="group-img" />
+        <h3>Nuri Abdul-Rahman</h3>
+        <p>Master's Student in Computer Science</p>
+        <p>UMBC | GEM Fellow</p>
+        <a href="/group/nuri/" class="bio-link">Full Bio</a>
+      </div>
+      <div class="member">
         <img src="/images/lab_portraits/Haddi_portrait.jpg" alt="Haddijatou Niasse" class="group-img" />
         <h3>Haddijatou Niasse</h3>
         <p>Chemical Engineering Undergraduate Student</p>

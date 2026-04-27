@@ -44,7 +44,7 @@ author_profile: false
 <div class="bio-flex">
 	<img src="/images/lab_portraits/David-portrait.png" alt="David C. Garcia" class="bio-img" />
 	<div class="bio-text">
-		David C. Garcia is an assistant professor in the Department of Chemical, Biochemical and Environmental Engineering at the University of Maryland Baltimore County. Their work focuses on developing modular approaches for biological transformations, aiming to create robust and predictable biological tools for applications in health, materials, and energy. In their free time they enjoy rock climbing, reading science fiction, and enjoying live music.
+		David C. Garcia is an assistant professor in the Department of Chemical, Biochemical and Environmental Engineering at the University of Maryland Baltimore County. Their work focuses on developing modular approaches for biological transformations, aiming to create robust and predictable biological tools for applications in health, materials, and energy. In their free time they enjoy rock climbing, reading science fiction, and live music.
 	</div>
 </div>
 
