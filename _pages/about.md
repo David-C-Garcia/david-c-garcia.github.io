@@ -107,6 +107,10 @@ redirect_from:
     <ul class="lab-news-list">
       <!-- Example event. Duplicate and edit for new events. -->
       <li>
+        <span class="lab-news-date">May-01-2026</span>
+        <span class="lab-news-content">David gave a talk at UMBC's COEIT Research Day; and Maya, Damilola, and Camille presented posters on their work.</span>
+      </li>
+      <li>
         <span class="lab-news-date">Mar-24-2026</span>
         <span class="lab-news-content">David gave a talk at the ACS Spring 2026 meeting on developing biological polymers using cell-free synthetic biology.</span>
       </li>
