@@ -50,6 +50,7 @@ header:
 }
 
 .grid__item {
+  display: flex !important;
   width: 28% !important;
   margin: 0 2% 30px 2% !important;
   border-radius: 8px !important;
@@ -57,6 +58,13 @@ header:
   box-shadow: 0 3px 10px rgba(0,0,0,0.08) !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
   background-color: #fff !important;
+}
+
+.grid__item .archive__item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 
 .grid__item:hover {
@@ -67,9 +75,15 @@ header:
 .archive__item-teaser {
   position: relative;
   overflow: hidden;
+  aspect-ratio: 16 / 10;
+  background-color: #eef3f7;
 }
 
 .archive__item-teaser img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: transform 0.5s ease;
 }
 

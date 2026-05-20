@@ -4,6 +4,7 @@ title: "Machine Learning Enabled Materials Production"
 # layout: single-portfolio
 excerpt: "<img src='/images/Future_work_2.png' alt=''>"
 collection: research
+permalink: /research/project2/
 order_number: 20
 header: 
   og_image: "images/Future_work_2.png"
@@ -16,5 +17,3 @@ The core capability to produce precise and complex biomolecular transformations 
 
 One of our first targets, melanin, a natural biopolymer known for its unique ability to absorb a wide range of radiations is a versatile material for coatings, absorbents, and even as a building material. However, the mechanisms by which melanins are synthesized are often environmentally unfriendly, expensive chemical synthesis, or inefficient due to cellular toxicity. Beyond simply producing large amounts of melanin, my goal for this work is two-fold. First, explore the use of substrates like noncanonical amino acids and multipeptides as sources for novel melanins with improved properties like heat resistance, magnetism, and color variations; and second, to fuse experimental activity data with ligand docking, and physicochemical properties of proteins and ligands with various machine learning models into accurate predictions of substrate scope.
 
-<p><b>Immediate Work:<b> Train LLM-based models to test novel substrates and biocatalysts for biological polymer production.<p>
-<b>Long term Vision:<b> Enable rapid and automated DBTL loops to effectively engineer enzymes, pathways, and synthetic biology tools.
