@@ -90,6 +90,13 @@ header:
         <a href="/group/maya-haywood/" class="bio-link">Full Bio</a>
       </div>
       <div class="member">
+        <img src="/images/lab_portraits/marina_portrait.png" alt="Marina Piatko Chang" class="group-img" />
+        <h3>Marina Piatko Chang</h3>
+        <p>Postdoctoral Researcher</p>
+        <p>University of Maryland Baltimore County</p>
+        <a href="/group/marina-piatko-chang/" class="bio-link">Full Bio</a>
+      </div>
+      <div class="member">
         <img src="/images/lab_portraits/camille_portrait.png" alt="Camille Basden" class="group-img" />
         <h3>Camille Basden</h3>
         <p>Master's Student in Chemical Engineering</p>
