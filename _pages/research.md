@@ -35,19 +35,6 @@ header:
   background: radial-gradient(circle, rgba(66, 133, 244, 0.18) 0%, rgba(66, 133, 244, 0) 70%);
 }
 
-.research-hero__eyebrow {
-  display: inline-block;
-  margin-bottom: 0.9em;
-  padding: 0.4em 0.8em;
-  border-radius: 999px;
-  background-color: rgba(66, 133, 244, 0.1);
-  color: #2457a6;
-  font-size: 0.78em;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 .research-hero__text {
   position: relative;
   z-index: 1;
@@ -58,7 +45,13 @@ header:
 }
 
 .research-figure {
-  margin: 2em 0 2.2em 0;
+  margin: 1.5em 0 2em 0;
+}
+
+.research-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .section-heading {
@@ -174,7 +167,6 @@ header:
 
 <div class="research-container">
   <div class="research-hero">
-    <span class="research-hero__eyebrow">Research Vision</span>
     <p class="research-hero__text">
       <strong>Our lab develops new strategies that expand traditional models of biomanufacturing sensors, materials, and molecules through a data-driven, multiplexed approach that reveals the core principles of scalable cell-free synthetic biology.</strong>
     </p>
@@ -185,7 +177,7 @@ header:
   </p>
 
   <figure class="research-figure">
-    <img class="featured-image" src="{{ '/images/Research_Images/research_directions_image.png' | relative_url }}" alt="Illustration of the lab's research directions in cell-free synthetic biology">
+    <img src="{{ '/images/Research_Images/research_directions_image.png' | relative_url }}" alt="Illustration of the lab's research directions in cell-free synthetic biology">
   </figure>
 
   <p style="text-align: justify; font-size: 1.05em; line-height: 1.6;">
