@@ -14,6 +14,53 @@ header:
   margin: 0 auto;
 }
 
+.research-hero {
+  position: relative;
+  margin: 0 0 2em 0;
+  padding: 2em 2.2em;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f4f8ff 0%, #ffffff 55%, #eef6f0 100%);
+  box-shadow: 0 18px 40px rgba(24, 44, 72, 0.08);
+  overflow: hidden;
+}
+
+.research-hero::after {
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: -20px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(66, 133, 244, 0.18) 0%, rgba(66, 133, 244, 0) 70%);
+}
+
+.research-hero__eyebrow {
+  display: inline-block;
+  margin-bottom: 0.9em;
+  padding: 0.4em 0.8em;
+  border-radius: 999px;
+  background-color: rgba(66, 133, 244, 0.1);
+  color: #2457a6;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.research-hero__text {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  color: #20324d;
+  font-size: 1.2em;
+  line-height: 1.7;
+}
+
+.research-figure {
+  margin: 2em 0 2.2em 0;
+}
+
 .section-heading {
   font-size: 1.6em;
   color: #2a2a2a;
@@ -102,15 +149,15 @@ header:
   line-height: 1.4 !important;
 }
 
-.text-block {
-  background-color: #f9f9f9;
-  border-left: 4px solid #4285f4;
-  padding: 1.5em;
-  margin: 2em 0;
-  border-radius: 0 8px 8px 0;
-}
-
 @media screen and (max-width: 768px) {
+  .research-hero {
+    padding: 1.7em;
+  }
+
+  .research-hero__text {
+    font-size: 1.1em;
+  }
+
   .grid__item {
     width: 45% !important;
     margin: 0 2% 20px 2% !important;
@@ -126,42 +173,22 @@ header:
 </style>
 
 <div class="research-container">
+  <div class="research-hero">
+    <span class="research-hero__eyebrow">Research Vision</span>
+    <p class="research-hero__text">
+      <strong>Our lab develops new strategies that expand traditional models of biomanufacturing sensors, materials, and molecules through a data-driven, multiplexed approach that reveals the core principles of scalable cell-free synthetic biology.</strong>
+    </p>
+  </div>
+
   <p style="text-align: justify; font-size: 1.05em; line-height: 1.6;">
   Engineerable biological systems have the potential to be some of our greatest tools against a host of problems, from biological and chemical threats to human health, to food insecurity, and the sustainable production of materials. Understanding the fundamental building blocks of complex biological systems and their interactions lies at the heart of creating biological tools that can function robustly, predictably, and with quantitative precision. However, the fundamental knowledge and high-throughput techniques to select ideal biocatalysts, reaction conditions, and production platforms are limited.
   </p>
+
+  <figure class="research-figure">
+    <img class="featured-image" src="{{ '/images/Research_Images/research_directions_image.png' | relative_url }}" alt="Illustration of the lab's research directions in cell-free synthetic biology">
+  </figure>
 
   <p style="text-align: justify; font-size: 1.05em; line-height: 1.6;">
   The open nature of cell-free systems enables this work through a modular approach to biological transformations that allows for distinct biological components to be characterized rapidly and with precise control of the chemical environment. These methods reconceptualize how biological systems are engineered for applications in health, materials, and energy. Instead of making concessions between the cell's physiological and evolutionary objectives compared to engineerable objectives, we are able to rapidly test components and conditions, port them to cellular chassis, or use them directly in cell-free biomanufacturing platforms.
   </p>
 
-  <div class="text-block">
-    <p style="text-align: justify; font-size: 1.1em; line-height: 1.6; margin: 0;">
-    <b>Our lab focuses on developing new strategies that expand our traditional models of biomanufacturing sensors, materials, and molecules by taking a data-driven and multiplexed approach to elucidate the fundamental principles of scalable cell-free synthetic biology.</b>
-    </p>
-  </div>
-
-  <img src="/images/Current_work_melanin.png" class="featured-image" alt="Current work on melanin production">
-
-  <h2 class="section-heading">Current Research</h2>
-  <p style="text-align: justify; font-size: 1.05em; line-height: 1.6;">
-  Our current project focuses on the use of protein language models to interrogate the substrate specificity and promiscuity of novel biocatalysts, using melanin as a model system for the large-scale production of biological polymers. This approach not only takes advantage of powerful pretrained protein language models but also makes effective use of high-throughput empirical verification to corroborate and fine-tune computational workflows.
-  </p>
-
-  <h2 class="section-heading">Future Directions</h2>
-  <p style="text-align: justify; font-size: 1.05em; line-height: 1.6;">
-  Future work will focus on three key projects to take a holistic approach to generating the tools and fundamental knowledge to develop cell-free systems as scalable biomanufacturing platforms and research tools: 
-  </p>
-  <ul style="line-height: 1.6; font-size: 1.05em; margin-left: 1.5em;">
-    <li>Computationally driven design of biosensors</li>
-    <li>Machine learning-enabled materials production</li>
-    <li>Fundamental explorations of cell-free metabolism towards small molecule production</li>
-  </ul>
-
-  <h2 class="section-heading">Research Projects</h2>
-
-  {% include base_path %}
-  {% assign ordered_pages = site.research | sort:"order_number" %}
-  {% for post in ordered_pages %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-</div>
