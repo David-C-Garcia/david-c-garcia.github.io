@@ -142,6 +142,37 @@ header:
   line-height: 1.4 !important;
 }
 
+.project-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project-links li {
+  margin: 0 0 0.8em 0;
+  padding: 0;
+}
+
+.project-links a {
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #1b5e93;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(27, 94, 147, 0.2);
+  transition: color 0.25s ease, border-color 0.25s ease;
+}
+
+.project-links a:hover {
+  color: #0f3d60;
+  border-color: rgba(15, 61, 96, 0.45);
+}
+
+.project-empty {
+  margin: 0;
+  color: #4d5a6b;
+  font-size: 1em;
+}
+
 @media screen and (max-width: 768px) {
   .research-hero {
     padding: 1.7em;
@@ -179,8 +210,18 @@ header:
   <figure class="research-figure">
     <img src="{{ '/images/Research_Images/research_directions_image.png' | relative_url }}" alt="Illustration of the lab's research directions in cell-free synthetic biology">
   </figure>
-
   <p style="text-align: justify; font-size: 1.05em; line-height: 1.6;">
   The open nature of cell-free systems enables this work through a modular approach to biological transformations that allows for distinct biological components to be characterized rapidly and with precise control of the chemical environment. These methods reconceptualize how biological systems are engineered for applications in health, materials, and energy. Instead of making concessions between the cell's physiological and evolutionary objectives compared to engineerable objectives, we are able to rapidly test components and conditions, port them to cellular chassis, or use them directly in cell-free biomanufacturing platforms.
   </p>
+
+  <h2 class="section-heading">Current Projects</h2>
+  <ul class="project-links">
+    <li>
+      <a href="{{ '/research/cofactor-enzyme-pairings/' | relative_url }}">Predicting Cofactor–Enzyme Pairings with Protein Language Models</a>
+    </li>
+  </ul>
+
+  <h2 class="section-heading">Past Projects</h2>
+  <p class="project-empty">Past projects will be listed here.</p>
+</div>
 
