@@ -220,8 +220,5 @@ header:
       <a href="{{ '/research/cofactor-enzyme-pairings/' | relative_url }}">Predicting Cofactor–Enzyme Pairings with Protein Language Models</a>
     </li>
   </ul>
-
-  <h2 class="section-heading">Past Projects</h2>
-  <p class="project-empty">Past projects will be listed here.</p>
 </div>
 

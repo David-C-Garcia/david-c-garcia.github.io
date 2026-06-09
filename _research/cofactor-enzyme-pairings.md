@@ -48,7 +48,6 @@ header:
   <figure class="project-image-wrap">
     <img src="{{ '/images/Research_Images/cofactor_optimization_LLM.png' | relative_url }}" alt="Workflow for predicting cofactor-enzyme pairings with protein language models">
   </figure>
-
   <section class="project-body">
     <p>
       Biological catalysts often require specific conditions and cofactors in order to function optimally. Identifying the right enzyme–cofactor pairings has traditionally relied on titrations of individually purified enzymes, limiting throughput and leaving many biocatalysts uncharacterised. As part of understanding the cofactor needs of industrially relevant enzymes we are making use of cell-free synthetic biology, high throughput liquid handling, and protein-language models to measure the cofactor needs of polyphenol oxidases.
