@@ -173,15 +173,6 @@ header:
   font-size: 1em;
 }
 
-.sidebar .author__content .author__bio {
-  font-size: 1.1em;
-}
-
-.sidebar .author__urls li,
-.sidebar .author__urls li a {
-  font-size: 1.1em;
-}
-
 @media screen and (max-width: 768px) {
   .research-hero {
     padding: 1.7em;
