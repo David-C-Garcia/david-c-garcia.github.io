@@ -40,8 +40,12 @@ header:
   z-index: 1;
   margin: 0;
   color: #20324d;
-  font-size: 1.2em;
   line-height: 1.7;
+}
+
+.research-body-text {
+  text-align: justify;
+  line-height: 1.6;
 }
 
 .research-figure {
@@ -154,7 +158,6 @@ header:
 }
 
 .project-links a {
-  font-size: 1.05em;
   font-weight: 600;
   color: #1b5e93;
   text-decoration: none;
@@ -170,16 +173,11 @@ header:
 .project-empty {
   margin: 0;
   color: #4d5a6b;
-  font-size: 1em;
 }
 
 @media screen and (max-width: 768px) {
   .research-hero {
     padding: 1.7em;
-  }
-
-  .research-hero__text {
-    font-size: 1.1em;
   }
 
   .grid__item {
@@ -203,14 +201,14 @@ header:
     </p>
   </div>
 
-  <p style="text-align: justify; font-size: 1.05em; line-height: 1.6;">
+  <p class="research-body-text">
   Engineerable biological systems have the potential to be some of our greatest tools against a host of problems, from biological and chemical threats to human health, to food insecurity, and the sustainable production of materials. Understanding the fundamental building blocks of complex biological systems and their interactions lies at the heart of creating biological tools that can function robustly, predictably, and with quantitative precision. However, the fundamental knowledge and high-throughput techniques to select ideal biocatalysts, reaction conditions, and production platforms are limited.
   </p>
 
   <figure class="research-figure">
     <img src="{{ '/images/Research_Images/research_directions_image.png' | relative_url }}" alt="Illustration of the lab's research directions in cell-free synthetic biology">
   </figure>
-  <p style="text-align: justify; font-size: 1.05em; line-height: 1.6;">
+  <p class="research-body-text">
   The open nature of cell-free systems enables this work through a modular approach to biological transformations that allows for distinct biological components to be characterized rapidly and with precise control of the chemical environment. These methods reconceptualize how biological systems are engineered for applications in health, materials, and energy. Instead of making concessions between the cell's physiological and evolutionary objectives compared to engineerable objectives, we are able to rapidly test components and conditions, port them to cellular chassis, or use them directly in cell-free biomanufacturing platforms.
   </p>
 
