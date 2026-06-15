@@ -5,6 +5,7 @@ title: "Rapidly Deployed Point-of-Care of Diagnostics"
 excerpt: "<img src='/images/nanobody_sensor.png' alt=''>"
 collection: research
 permalink: /research/project1/
+published: false
 order_number: 10
 header: 
   og_image: "images/nanobody_sensor.png"

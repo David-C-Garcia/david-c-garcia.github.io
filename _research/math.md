@@ -5,6 +5,7 @@ title: "Machine Learning Enabled Materials Production"
 excerpt: "<img src='/images/Future_work_2.png' alt=''>"
 collection: research
 permalink: /research/project2/
+published: false
 order_number: 20
 header: 
   og_image: "images/Future_work_2.png"

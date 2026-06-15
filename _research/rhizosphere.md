@@ -5,6 +5,7 @@ title: "High-Throughput Exploration of Cell-Free Metabolism"
 excerpt: "<img src='/images/metabolsim_graphic_simple_model.png' alt=''>"
 collection: research
 permalink: /research/project3/
+published: false
 order_number: 30
 header: 
   og_image: "images/metabolsim_graphic_simple_model.png"

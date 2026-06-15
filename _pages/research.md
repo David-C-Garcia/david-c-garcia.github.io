@@ -217,6 +217,9 @@ header:
     <li>
       <a href="{{ '/research/cofactor-enzyme-pairings/' | relative_url }}">Predicting Cofactor–Enzyme Pairings with Protein Language Models</a>
     </li>
+    <li>
+      <a href="{{ '/research/biological-polymers/' | relative_url }}">High-Throughput Exploration of Biological Polymer Synthesis</a>
+    </li>
   </ul>
 </div>
 
