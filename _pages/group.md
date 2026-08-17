@@ -130,6 +130,13 @@ header:
         <p>Biochemistry and Molecular Biology, UMBC</p>
         <a href="/group/idrees-chaudry/" class="bio-link">Full Bio</a>
       </div>
+      <div class="member">
+        <img src="/images/lab_portraits/judy_tran_portrait.jpeg" alt="Judy Tran" class="group-img" />
+        <h3>Judy Tran</h3>
+        <p>Biochemistry &amp; Molecular Biology Undergraduate Student</p>
+        <p>UMBC</p>
+        <a href="/group/judy-tran/" class="bio-link">Full Bio</a>
+      </div>
     </div>
   </div>
 </section>

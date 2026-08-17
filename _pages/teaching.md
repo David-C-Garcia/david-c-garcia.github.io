@@ -7,9 +7,9 @@ header:
   og_image: "images/profile.png"
 ---
 
-<p style="text-align: justify;">Dr. Garcia will be teaching ENCH 486/686 - A Survey of Sensors and Instrumentation in the Spring of 2026.</p>
+<p style="text-align: justify;">Dr. Garcia will be teaching ENCH 482/682 - Biochemical Engineering in the Fall 2026.</p>
 
-<p style="text-align: justify;">A short course description and list of topics can be found <a href="/files/pdf/Documents/Sensors%20Syllabus%20DCG.pdf">here</a> and will be updated as the semester gets closer.</p>
+<p style="text-align: justify;">The syllabus can be found <a href="/files/pdf/Documents/Syllabus_ENCH_482-682_Biochemical_Engineering_Fall_2026.pdf">here</a>.</p>
 
 
 
