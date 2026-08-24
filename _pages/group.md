@@ -24,6 +24,8 @@ header:
   text-align: center;
   margin-bottom: 2em;
   transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
 }
 .member:hover {
   transform: translateY(-5px);
@@ -53,7 +55,7 @@ header:
 }
 .bio-link {
   display: inline-block;
-  margin-top: 1em;
+  margin-top: auto;
   padding: 0em;
   background-color: transparent;
   color: #007acc;
@@ -67,6 +69,32 @@ header:
   text-decoration: none;
   color: #005a9c;
 }
+.alumni-section {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 2px solid #e5e5e5;
+}
+.alumni-title {
+  text-align: center;
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
+.alumni-link {
+  text-align: center;
+  margin-top: 1em;
+}
+.alumni-link a {
+  color: #007acc;
+  text-decoration: none;
+  font-size: 0.95em;
+  transition: color 0.2s;
+}
+.alumni-link a:hover {
+  color: #005a9c;
+  text-decoration: underline;
+}
+
 </style>
 
 
@@ -97,13 +125,7 @@ header:
         <a href="/group/marina-piatko-chang/" class="bio-link">Full Bio</a>
       </div>
       <div class="member">
-        <img src="/images/lab_portraits/camille_portrait.png" alt="Camille Basden" class="group-img" />
-        <h3>Camille Basden</h3>
-        <p>Master's Student in Chemical Engineering</p>
-        <p>UMBC</p>
-        <a href="/group/camille/" class="bio-link">Full Bio</a>
-      </div>
-      <div class="member">
+
         <img src="/images/lab_portraits/Nuri_portrait.png" alt="Nuri Abdul-Rahman" class="group-img" />
         <h3>Nuri Abdul-Rahman</h3>
         <p>Master's Student in Computer Science</p>
@@ -125,6 +147,13 @@ header:
         <a href="/group/damilola-fapohunda/" class="bio-link">Full Bio</a>
       </div>
       <div class="member">
+        <img src="/images/lab_portraits/kalan_portrait.jpg" alt="Kalan Hurdle" class="group-img" />
+        <h3>Kalan Hurdle</h3>
+        <p>Master's Student in Chemical and Biochemical Engineering</p>
+        <p>UMBC</p>
+        <a href="/group/kalan-hurdle/" class="bio-link">Full Bio</a>
+      </div>
+      <div class="member">
         <img src="/images/lab_portraits/Idrees _protrait.png" alt="Idrees Chaudry" class="group-img" />
         <h3>Idrees Chaudry</h3>
         <p>Biochemistry and Molecular Biology, UMBC</p>
@@ -137,6 +166,16 @@ header:
         <p>UMBC</p>
         <a href="/group/judy-tran/" class="bio-link">Full Bio</a>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="alumni" class="alumni-section">
+  <div class="container">
+    <h2 class="alumni-title">Lab Alumni</h2>
+    <p style="text-align: center; margin-bottom: 1.5em;">Learn more about members who have contributed to our lab:</p>
+    <div class="alumni-link">
+      <a href="/group/alumni/">View Lab Alumni</a>
     </div>
   </div>
 </section>
