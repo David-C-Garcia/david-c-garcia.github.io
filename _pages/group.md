@@ -147,7 +147,7 @@ header:
         <a href="/group/damilola-fapohunda/" class="bio-link">Full Bio</a>
       </div>
       <div class="member">
-        <img src="/images/lab_portraits/kalan_portrait.jpg" alt="Kalan Hurdle" class="group-img" />
+        <img src="/images/lab_portraits/kalan_portrait.png" alt="Kalan Hurdle" class="group-img" />
         <h3>Kalan Hurdle</h3>
         <p>Master's Student in Chemical and Biochemical Engineering</p>
         <p>UMBC</p>

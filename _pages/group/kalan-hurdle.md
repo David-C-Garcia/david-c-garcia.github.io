@@ -42,7 +42,7 @@ author_profile: false
 </style>
 
 <div class="bio-flex">
-	<img src="/images/lab_portraits/kalan_portrait.jpg" alt="Kalan Hurdle" class="bio-img" />
+	<img src="/images/lab_portraits/kalan_portrait.png" alt="Kalan Hurdle" class="bio-img" />
 	<div class="bio-text">
 		Kalan graduated from Case Western Reserve University with a Bachelor's degree in Chemical Engineering. He worked in Boston as a materials processing engineer on projects centered around extrusion, polymer rheology, and plastics recycling. He has also worked in the electrochemistry field: synthesizing supplementary cementitious materials (SCM) and investigating critical mineral recovery from PCB boards. He is currently pursuing a Master's degree in Chemical and Biochemical Engineering at UMBC. Kalan will be working on a collaborative effort to investigate the functionality of programmable bioplastics.
 	</div>
