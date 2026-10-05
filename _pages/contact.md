@@ -71,8 +71,11 @@ title: "Contact Us"
     <p>Students and experienced researchers interested in contributing to the lab should review our current openings:</p>
     <ul>
       <li><a href="{{ '/files/pdf/Documents/UMBC_Garcia_Lab_SynBio_Postdoc_Job_Description.pdf' | relative_url }}">Postdoctoral Researcher Job Description</a></li>
-      <li><a href="{{ '/files/pdf/Documents/UMBC_Garcia_Lab_SynBio_Technician_Job_Description.pdf' | relative_url }}">Technician Job Description</a></li>
     </ul>
     <p>Interested parties should send a CV directly to Dr. Garcia.</p>
+  </div>
+  <div class="join-us">
+    <h3 class="contact-heading">High School Research Students</h3>
+    <p>The Garcia Lab does not accept high school research students during the school year. The lab will offer 1-2 summer research scholarships to Baltimore City Public School students. Applications will open in the spring.</p>
   </div>
 </div>
