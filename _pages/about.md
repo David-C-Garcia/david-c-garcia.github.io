@@ -51,6 +51,8 @@ redirect_from:
   box-shadow: 0 2px 10px rgba(0,0,0,0.07);
   padding: 2em 1.5em 2.5em 1.5em;
   max-width: 800px;
+  max-height: 500px;
+  overflow-y: auto;
   margin: 3em auto 2em auto;
 }
 .lab-news-section h2 {
@@ -106,6 +108,14 @@ redirect_from:
     <h2>Lab News</h2>
     <ul class="lab-news-list">
       <!-- Example event. Duplicate and edit for new events. -->
+      <li>
+        <span class="lab-news-date">Oct 13, 2026</span>
+        <span class="lab-news-content">The Garcia lab joins a new ARPA-H collaboration! <a href="https://umbc.edu/stories/umbc-umbc-research-misfolded-proteins/">Full Story</a></span>
+      </li>
+      <li>
+        <span class="lab-news-date">Sep 28, 2026</span>
+        <span class="lab-news-content">Garcia Lab undergrad Kyah Young was featured for her summer research work creating renewable bioplastics. <a href="https://umbc.edu/stories/bccc-coeit-early-research-partnerships/">Full Story</a></span>
+      </li>
       <li>
         <span class="lab-news-date">May-01-2026</span>
         <span class="lab-news-content">David gave a talk at UMBC's COEIT Research Day; and Maya, Damilola, and Camille presented posters on their work.</span>
