@@ -118,13 +118,6 @@ header:
         <a href="/group/maya-haywood/" class="bio-link">Full Bio</a>
       </div>
       <div class="member">
-        <img src="/images/lab_portraits/marina_portrait.png" alt="Marina Piatko Chang" class="group-img" />
-        <h3>Marina Piatko Chang</h3>
-        <p>Postdoctoral Researcher</p>
-        <p>University of Maryland Baltimore County</p>
-        <a href="/group/marina-piatko-chang/" class="bio-link">Full Bio</a>
-      </div>
-      <div class="member">
 
         <img src="/images/lab_portraits/Nuri_portrait.png" alt="Nuri Abdul-Rahman" class="group-img" />
         <h3>Nuri Abdul-Rahman</h3>
@@ -165,6 +158,13 @@ header:
         <p>Biochemistry &amp; Molecular Biology Undergraduate Student</p>
         <p>UMBC</p>
         <a href="/group/judy-tran/" class="bio-link">Full Bio</a>
+      </div>
+      <div class="member">
+        <img src="/images/lab_portraits/Kyah_portrait.jpg" alt="Kyah Young" class="group-img" />
+        <h3>Kyah Young</h3>
+        <p>Biological Sciences Undergraduate Student</p>
+        <p>UMBC</p>
+        <a href="/group/kyah-young/" class="bio-link">Full Bio</a>
       </div>
     </div>
   </div>

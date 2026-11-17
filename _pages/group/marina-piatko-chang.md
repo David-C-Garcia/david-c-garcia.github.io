@@ -44,6 +44,6 @@ author_profile: false
 <div class="bio-flex">
 	<img src="/images/lab_portraits/marina_portrait.png" alt="Marina Piatko Chang" class="bio-img" />
 	<div class="bio-text">
-		Marina Piatko Chang is a postdoctoral researcher at the University of Maryland Baltimore County. Her work focuses on understanding the behavior of intrinsically disordered proteins through cell-free synthesis, high-throughput characterization, and machine learning. Outside of the lab, she enjoys playing tabletop roleplaying games and making crafts.
+		Marina Piatko Chang was a postdoctoral researcher at the University of Maryland Baltimore County. Her work focused on understanding the behavior of intrinsically disordered proteins through cell-free synthesis, high-throughput characterization, and machine learning. Outside of the lab, she enjoys playing tabletop roleplaying games and making crafts.
 	</div>
 </div>

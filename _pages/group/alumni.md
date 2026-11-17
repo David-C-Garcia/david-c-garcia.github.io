@@ -94,5 +94,12 @@ author_profile: true
       <p>UMBC</p>
       <a href="/group/camille/" class="alumni-bio-link">Full Bio</a>
     </div>
+    <div class="alumni-member">
+      <img src="/images/lab_portraits/marina_portrait.png" alt="Marina Piatko Chang" class="alumni-img" />
+      <h3>Marina Piatko Chang</h3>
+      <p>Former Postdoctoral Researcher</p>
+      <p>University of Maryland Baltimore County</p>
+      <a href="/group/marina-piatko-chang/" class="alumni-bio-link">Full Bio</a>
+    </div>
   </div>
 </div>
